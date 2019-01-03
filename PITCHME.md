@@ -199,6 +199,9 @@ First we will show the UEFI_APPLICATION type of module since it is the simplist 
 	</tr>
 
 </table>
+@box[bg-lt-gold-trans text-white rounded fragment ](<span style="font-size:01.20em" ><b>Complexity - Number of source files dependent</b></span>)
+@box[bg-lt-orange-trans text-white rounded fragment ](<span style="font-size:01.20em" ><b>.INF file - One file is required per module</b></span>)
+@box[bg-lt-brick-trans text-white rounded fragment ](<span style="font-size:01.20em" ><b>.EFI file - Sources compiled to a single .EFI file</b></span>)
 
 
  
