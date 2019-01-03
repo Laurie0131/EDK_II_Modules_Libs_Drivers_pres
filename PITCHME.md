@@ -127,7 +127,6 @@ So the first thing we have in trying to break EDK II down is Modules:
 <span style="font-size:0.65em; font-family: Courier New; color: yellow; font-weight: bold; background-color: #262626" > 
 &lt;ModuleTypes&gt;&nbsp; ::= &nbsp;&lt;ModuleType&gt; [&lt;Space&gt; &lt;ModuleType&gt;]
 </span> </p>
-<br>
 @snapend
 
 
@@ -138,7 +137,7 @@ So the first thing we have in trying to break EDK II down is Modules:
 <br>
 <br>
 <br>
-<span style="font-size:0.65em"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span style="font-size:0.65em"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span style="font-size:02.65em">@color[red](&DDotrahd;)</span>
 @snapend
 
