@@ -303,6 +303,77 @@ For example there may be three library instances for a given function and one li
 - At the top of the slide there is an example of [libraryclasses.common] for a DSC file.
 
 
+---
+@title[NULL Library Class]
+<p align="right"><span class="gold" ><b>"NULL" Library Class</b></span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:0.85em">@color[yellow](<b>Syntax:</b>)</span>
+```
+    Pkg/MyModule/MyModule.inf {
+    	 <LibraryClasses>
+      	NULL|Pkg/Library/LibName/LibName.inf
+      	NULL|Pkg/Library/LibName2/LibName2.inf
+  	}
+
+
+```
+<span style="font-size:0.85em">@color[yellow](<b>UEFI Shell example:</b>)</span>
+```
+    ShellPkg/Application/Shell/Shell.inf {
+     <LibraryClasses>
+       NULL|ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib.inf
+       NULL|ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib.inf
+	  . . .
+    }      
+
+```
+@snap[north-west span-35]
+<br>
+<br>
+<br>
+@box[bg-royal text-white rounded fragment ](<span style="font-size:01.0em" ><b>Constructors</b></span>)
+@snapend
+
+@snap[north-east span-35]
+<br>
+<br>
+<br>
+@box[bg-orange text-white rounded fragment ](<span style="font-size:01.0em" ><b>Special Cases</b></span>)
+@snapend
+
+
+@snap[north span-55]
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-navy text-white rounded fragment ](<span style="font-size:0.90em" ><b>NOT "`...LibNull`" instance</b></span>)
+@snapend
+
+@snap[west span-40]
+@box[bg-purple-pp text-white rounded fragment ](<span style="font-size:0.90em" ><b>Open Source Example</b><br></span><span style="font-size:0.450em" >DxeCrc32GuidedSectionExtractLib
+ShellPkg as used with Profiles </span>)
+@snapend
+
+Note:
+- Not a named library
+- Not related to LibNull instances (DebugLibNull)
+- May not produce any interfaces
+- Does all work in constructors
+- Can be linked more than once
+- Used for special cases
+- DXE Core and DXE IPL section file interpreters
+
 
 ---?image=/assets/images/slides/Slide23.JPG
 <!-- .slide: data-transition="none" -->
