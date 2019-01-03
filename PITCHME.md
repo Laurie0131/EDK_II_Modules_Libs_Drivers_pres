@@ -128,6 +128,17 @@ So the first thing we have in trying to break EDK II down is Modules:
 <br>
 @snapend
 
+
+@snap[north span-30 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:01.65em color: red;">&#8680;</span>
+@snapend
+
 Note:
 
 - BASE 
