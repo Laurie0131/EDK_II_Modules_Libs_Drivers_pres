@@ -187,7 +187,7 @@ First we will show the UEFI_APPLICATION type of module since it is the simplist 
 	</tr>
 	<tr>
 		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`UEFI_DRIVER`</b></span></p></td>
-		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>`FooDriver.c, FooDriver.h, FooDriver.vfr, FooDriver.uni, FooDriver.inf `</b>)</span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:030%"><span style="font-size:0.5em" >@color[yellow](<b>`FooDriver.c, FooDriver.h, FooDriver.vfr,<br> FooDriver.uni, FooDriver.inf `</b>)</span></p></td>
 	</tr>
 	<tr>
 		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`DXE_DRIVER`</b></span></p></td>
