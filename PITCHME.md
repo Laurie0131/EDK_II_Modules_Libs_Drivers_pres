@@ -311,7 +311,7 @@ For example there may be three library instances for a given function and one li
 <br>
 <br>
 <span style="font-size:0.85em">@color[yellow](<b>Syntax:</b>)</span>
-```
+```xml
     Pkg/MyModule/MyModule.inf {
     	 <LibraryClasses>
       	NULL|Pkg/Library/LibName/LibName.inf
@@ -321,7 +321,7 @@ For example there may be three library instances for a given function and one li
 
 ```
 <span style="font-size:0.85em">@color[yellow](<b>UEFI Shell example:</b>)</span>
-```
+```xml
     ShellPkg/Application/Shell/Shell.inf {
      <LibraryClasses>
        NULL|ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib.inf
@@ -351,11 +351,12 @@ For example there may be three library instances for a given function and one li
 <br>
 <br>
 <br>
+<br>
 @box[bg-navy text-white rounded fragment ](<span style="font-size:0.90em" ><b>NOT "`...LibNull`" instance</b></span>)
 @snapend
 
 @snap[south-east span-40]
-@box[bg-purple-pp text-white rounded fragment ](<p style="line-height:80%" ><span style="font-size:0.90em" ><b>Open Source Example</b><br></span><span style="font-size:0.50em" >DxeCrc32GuidedSectionExtractLib <br>ShellPkg as used with Profiles </span></p>)
+@box[bg-purple-pp text-white rounded fragment ](<p style="line-height:80%" ><span style="font-size:0.90em" ><b>Open Source Example</b><br></span><span style="font-size:0.50em" >DxeCrc32GuidedSectionExtractLib <br>ShellPkg as used with Profiles<br> </span></p>)
 <br>
 <br>
 @snapend
