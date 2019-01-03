@@ -171,36 +171,37 @@ the syntax is: as shown on the slide
 
 First we will show the UEFI_APPLICATION type of module since it is the simplist and can be somewhat independant from the underlining hardware.
 
+
  
----?image=/assets/images/slides/Slide7.JPG
-@title[Module Types]
-### <p align="right"><span class="gold" >Module Types</span></p>
+---
+@title[Module Source - minimum files]
+<p align="right"><span class="gold" ><b>Module Source Contents </b></span><span style="font-size:0.8em" >- minimum files</span></p>
+<table id="recTable">
+	<tr>
+		<td bgcolor="#121212" height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`MODULE_TYPE`</b></span></p></td>
+		<td bgcolor="#121212" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" ><b>Example Source files </b></span></p></td>
+	</tr>
+	<tr>
+		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`UEFI_APPLICATION`</b></span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>'Foo.c, Foo.inf` </b>)</span></p></td>
+	</tr>
+	<tr>
+		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`UEFI_DRIVER`</b></span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>'FooDriver.c, FooDriver.h, FooDriver.vfr, FooDriver.uni, FooDriver.inf` </b>)</span></p></td>
+	</tr>
+	<tr>
+		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`DXE_DRIVER`</b></span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>'FooDxe.c, FooDxe.h, FooDxe.inf` </b>)</span></p></td>
+	</tr>
+	<tr>
+		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`DXE` or 'UEFI' Driver Library</b></span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>'FooLib.c, FooLib.h, FooLib.inf` </b>) w/ `LIBRARY_CLASS= "</span></p></td>
+	</tr>
 
-Note:
-
-- BASE 
-- SEC  
-- PEI_CORE 
-- PEIM  
-- DXE_CORE 
-- DXE_DRIVER 
-- DXE_RUNTIME_DRIVER 
-- DXE_SAL_DRIVER 
-- DXE_SMM_DRIVER 
-- UEFI_DRIVER 
-- UEFI_APPLICATION
-- BASE LIBRARY
-- SECURITY_CORE 
-- PEI_CORE 
-- COMBINED_PEIM_DRIVER 
-- PIC_PEIM
-- RELOCATABLE_PEIM 
-- BS_DRIVER 
-- RT_DRIVER 
-- SAL_RT_DRIVER 
-- APPLICATION
+</table>
 
 
+ 
 ---?image=/assets/images/slides/Slide9.JPG
 <!-- .slide: data-transition="none" -->
 @title[Module Source - minimum files]
