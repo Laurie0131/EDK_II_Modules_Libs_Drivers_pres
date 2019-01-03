@@ -233,30 +233,34 @@ Example of the naming and number of files associated with the modules types
 
 ```
 
-@snap[west span-25]
-<p align="right"><span style="font-size:01.20em" >&vert;</span></p>
-@snapend
-
 @snap[west span-20]
 @box[bg-royal text-white rounded fragment ](<span style="font-size:01.20em" ><b>Name</b></span>)
 @snapend
 
-
-@snap[midpoint span-40 fragment]
-@box[bg-purple-pp text-white rounded  ](<span style="font-size:01.20em" ><b>Implementation<sub>1</sub></b></span>)
+@snap[west span-25 fragment]
+<p align="right"><span style="font-size:01.20em" >@color[yellow](&vert;)</span></p>
 @snapend
 
 @snap[midpoint span-40 fragment]
-@box[bg-green2 text-white rounded  ](<span style="font-size:01.20em" ><b>Implementation<sub>2</sub></b></span>)
+@box[bg-purple-pp text-white rounded  ](<span style="font-size:01.20em" ><b>Implementation<sup>1</sup></b></span>)
 @snapend
 
 @snap[midpoint span-40 fragment]
-@box[bg-brick text-white rounded  ](<span style="font-size:01.20em" ><b>Implementation<sub>3</sub></b></span>)
+@box[bg-green2 text-white rounded  ](<span style="font-size:01.20em" ><b>Implementation<sup>2</sup></b></span>)
+@snapend
+
+@snap[midpoint span-40 fragment]
+@box[bg-brick text-white rounded  ](<span style="font-size:01.20em" ><b>Implementation<sup>3</sup></b></span>)
 @snapend
 
 
-@snap[south span-90 ]
+@snap[south span-80 ]
 @box[bg-green text-white rounded fragment ](<span style="font-size:01.20em" ><b>Consistent set of interfaces</b></span>)
+<br>
+<br>
+@snapend
+
+snap[south span-100 ]
 @box[bg-grey-50 text-white rounded fragment ](<span style="font-size:01.20em" ><b>Does not describe implementation of the interfaces</b></span>)
 @snapend
 
