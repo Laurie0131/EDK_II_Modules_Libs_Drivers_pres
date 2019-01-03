@@ -419,7 +419,8 @@ The simple answer is ”you have to know what the library class is based on.”
 <span style="font-size:0.70em" >your module to another</span></p>
 @snapend
 
-@snap[north span-110]
+@snap[north span-100]
+<br>
 <br>
 <br>
 <br>
