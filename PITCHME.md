@@ -334,14 +334,14 @@ For example there may be three library instances for a given function and one li
 <br>
 <br>
 <br>
-@box[bg-royal text-white rounded fragment ](<span style="font-size:01.0em" ><b>Constructors</b></span>)
+@box[bg-royal text-white rounded fragment ](<span style="font-size:01.20em" ><b>Constructors</b></span>)
 @snapend
 
 @snap[north-east span-40]
 <br>
 <br>
 <br>
-@box[bg-lt-orange text-white rounded fragment ](<span style="font-size:01.0em" ><b>Special Cases</b></span>)
+@box[bg-lt-orange text-white rounded fragment ](<span style="font-size:01.20em" ><b>Special Cases</b></span>)
 @snapend
 
 
@@ -352,7 +352,7 @@ For example there may be three library instances for a given function and one li
 <br>
 <br>
 <br>
-@box[bg-navy text-white rounded fragment ](<span style="font-size:0.90em" ><b>NOT "`...LibNull`" instance</b></span>)
+@box[bg-navy text-white rounded fragment ](<span style="font-size:0.90em" ><b>NOT &nbsp; "`...LibNull`" &nbsp; instance</b></span>)
 @snapend
 
 @snap[south-east span-40]
@@ -368,84 +368,32 @@ Note:
 - Can be linked more than once
 - Used for special cases
 - DXE Core and DXE IPL section file interpreters
+- ShellPkg uses the NULL named library with its profiles, thus when compiling a version of the UEFI Shell application, all that is needed is to include the interface as shown in the example on this slide.
 
 
----?image=/assets/images/slides/Slide23.JPG
-<!-- .slide: data-transition="none" -->
-@title[NULL Library Class]
-<p align="right"><span class="gold" >"NULL" Library Class</span></p>
 
-Note:
-- Not a named library
-- Not related to LibNull instances (DebugLibNull)
-- May not produce any interfaces
-- Does all work in constructors
-- Can be linked more than once
-- Used for special cases
-- DXE Core and DXE IPL section file interpreters
 
-+++?image=/assets/images/slides/Slide24.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[NULL Library Class 02]
-<p align="right"><span class="gold" >"NULL" Library Class</span></p>
+---
+@title[Locating library classes]
+<p align="right"><span class="gold" ><b>Locating Library Classes</b></span></p>
+
+@snap[north-west span-100]
+<br>
+<br>
+<br>
+@box[bg-royal text-white rounded fragment ](<p style="line-height:80%" align="left"><span style="font-size:0.80em" ><b>Library base upon</b><br></span><span style="font-size:0.70em" >1. Industry specs &lpar;UEFI, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;@color[yellow](`MdePkg/MdeModulePkg`)<br>2. Intel’s framework1 specs <br>&nbsp;&nbsp;&nbsp;@color[yellow](`IntelFrameworkPkg/IntelFrameworkModulePkg`)</p>)
+@box[bg-lt-orange text-white rounded fragment ](<span style="font-size:0.80em" >Use the package help files &lpar;`.CHM`&rpar; to find a library or function<br> <i>Example:</i> `MdePkg.chm`</span>)
+@box[bg-green-pp text-white rounded fragment ](<span style="font-size:0.80em" > Search WorkSpace &lpar;`.INF`&rpar;  ”`LIBRARY_CLASS`”</span>)
+@snapend
+
+
 
 Note:
-- Not a named library
-- Not related to LibNull instances (DebugLibNull)
-- May not produce any interfaces
-- Does all work in constructors
-- Can be linked more than once
-- Used for special cases
-- DXE Core and DXE IPL section file interpreters
 
+How do you find library classes?<br>
+The simple answer is ”you have to know what the library class is based on.”
+- For example, if it is based on industry standards like the UEFI, PI, SMBIOS, ACPI, etc…you are probably going to find it in the MDE package or maybe in the MDE module package. 
 
-+++?image=/assets/images/slides/Slide25.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[NULL Library Class 03]
-<p align="right"><span class="gold" >"NULL" Library Class</span></p>
-
-Note:
-- Not a named library
-- Not related to LibNull instances (DebugLibNull)
-- May not produce any interfaces
-- Does all work in constructors
-- Can be linked more than once
-- Used for special cases
-- DXE Core and DXE IPL section file interpreters
-
-
-+++?image=/assets/images/slides/Slide26.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[NULL Library Class 04]
-<p align="right"><span class="gold" >"NULL" Library Class</span></p>
-
-Note:
-- Not a named library
-- Not related to LibNull instances (DebugLibNull)
-- May not produce any interfaces
-- Does all work in constructors
-- Can be linked more than once
-- Used for special cases
-- DXE Core and DXE IPL section file interpreters
-
-
-+++?image=/assets/images/slides/Slide27.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[NULL Library Class 05]
-<p align="right"><span class="gold" >"NULL" Library Class</span></p>
-
-Note:
-- Not a named library
-- Not related to LibNull instances (DebugLibNull)
-- May not produce any interfaces
-- Does all work in constructors
-- Can be linked more than once
-- Used for special cases
-- DXE Core and DXE IPL section file interpreters
 
 ---?image=/assets/images/slides/Slide30.JPG
 <!-- .slide: data-transition="none" -->
