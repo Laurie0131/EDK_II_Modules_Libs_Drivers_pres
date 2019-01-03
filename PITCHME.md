@@ -383,7 +383,7 @@ Note:
 @box[bg-royal text-white rounded  my-box-pad fragment](<p style="line-height:80%" align="left"><span style="font-size:01.0em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Library based upon</b><br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Industry specifications &lpar;UEFI, PCI, USB, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`MdePkg/MdeModulePkg`)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Intel’s framework<sup>1</sup> specs <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`IntelFrameworkPkg/IntelFrameworkModulePkg`)<br>&nbsp;</p>)
 @box[bg-brick text-white rounded  my-box-pad fragment](<span style="font-size:0.90em" >Use the package help files &lpar;`.CHM`&rpar; to find a library or function<br> <i>Example:</i> `MdePkg.chm`</span>)
 <br>
-@box[bg-green text-white rounded  fragment](<span style="font-size:0.90em" > Search WorkSpace &lpar;`.INF`&rpar;  ”`LIBRARY_CLASS`” </span>)
+@box[bg-green text-white rounded  fragment](<span style="font-size:0.90em" > Search WorkSpace &lpar;`.INF`&rpar;  "`LIBRARY_CLASS`" </span>)
 @snapend
 
 @snap[south-west span-50]
@@ -396,6 +396,67 @@ Note:
 How do you find library classes?<br>
 The simple answer is ”you have to know what the library class is based on.”
 - For example, if it is based on industry standards like the UEFI, PI, SMBIOS, ACPI, etc…you are probably going to find it in the MDE package or maybe in the MDE module package. 
+
+
+
+
+
+---?image=/assets/images/slides/Slide11_1.JPG
+@title[Library Instance Hierarch]
+<p align="right"><span class="gold" ><b>Library Instance Hierarchy</b></span></p>
+
+@snap[north-west span-30]
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:01.0em" >@color[yellow](<b>Form</b>)</span><br>
+<span style="font-size:0.70em" >a hierarchy similar to UEFI drivers</span></p>
+@snapend
+
+@snap[north-east span-30]
+<br>
+<br>
+<p style="line-height:80%" align="right"><span style="font-size:01.0em" >@color[yellow](<b>Link</b>)</span><br>
+<span style="font-size:0.70em" >your module to another</span></p>
+@snapend
+
+@snap[north span-100]
+<br>
+<br>
+<br>
+@css[text-white fragment](`DebugLib`)
+@css[text-white fragment](`DebugLibSerialPort`<br> &lpar;Instance&rpar;)
+@css[text-white fragment](SerialPort<br> &lpar;Class&rpar;)
+@css[text-white fragment](`MdePkg`<br> &lpar;Specs&rpar;)
+@css[text-white fragment](@color[red](Build error):Instance of Library class &lbrack;`Foo. . Lib`&rbrack; is not found... <br>Consumed by module &lbrack;<i>My Module.inf</i>&rbrack;)
+
+@snapend
+
+
+Note:
+- when the error Build : error 4000 : Instance of Library class [Foo…Lib] is not found in [WorkSpace/some module Lib.inf] consumed by module [WorkSpace/My Module.inf]
+
+
+- Library Instances (NOT Library Classes) form a hierarchy similar to UEFI drivers
+Some Library Instances will link your module to another Library DebugLib (Class)
+- DebugLibSerialPort (Instance)
+- SerialPort (Class)
+- Etc…
+
+The build process handles this, as long as a Library Instance is listed somewhere in the module hierarchy in the .DSC file
+
+
+Library instances, not library classes, form a hierarchy very similar to the way drivers work.
+One library instance you link to may link another library class without your awareness: 
+
+For example, If you linked the debug Lib and then someone doing the platform decides that they will use the debug Lib serial port for your debug Lib class,
+That debug serial port instance links against the serial Port library class which now links its own library instance.
+
+Now the build will handle this all in the background. 
+When it looks in your INF file it is going to see debug Lib, and when you look at the debug serial port it’s going to see serial port.  
+
+As long as there is at least one of each library instance in the workspace and in DSC file, it will be built behind the scenes. You won’t even realize that there is more than one dependency under your module, and behind the scenes is doing this for everything. 
+Another NOTE:  Most libraries are dependent on another library the same way that .c and .h files are dependent upon some other .c and .h files.. 
+
 
 
 ---?image=/assets/images/slides/Slide35.JPG
