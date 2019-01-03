@@ -381,9 +381,9 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-royal text-white rounded fragment my-box-pad](<p style="line-height:80%" align="left"><span style="font-size:0.80em" ><b>Library base upon</b><br></span><span style="font-size:0.70em" >1. Industry specs &lpar;UEFI, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;@color[yellow](`MdePkg/MdeModulePkg`)<br>2. Intel’s framework<sup>1</sup> specs <br>&nbsp;&nbsp;&nbsp;@color[yellow](`IntelFrameworkPkg/IntelFrameworkModulePkg`)</p>)
-@box[bg-lt-orange text-white rounded fragment my-box-pad](<span style="font-size:0.80em" >Use the package help files &lpar;`.CHM`&rpar; to find a library or function<br> <i>Example:</i> `MdePkg.chm`</span>)
-@box[bg-green-pp text-white rounded fragment my-box-pad](<span style="font-size:0.80em" > Search WorkSpace &lpar;`.INF`&rpar;  ”`LIBRARY_CLASS`”</span>)
+@box[bg-royal text-white rounded  my-box-pad fragment](<p style="line-height:80%" align="left"><span style="font-size:0.80em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Library base upon</b><br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;1. Industry specs &lpar;UEFI, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`MdePkg/MdeModulePkg`)<br>&nbsp;&nbsp;&nbsp;2. Intel’s framework<sup>1</sup> specs <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`IntelFrameworkPkg/IntelFrameworkModulePkg`)</p>)
+@box[bg-lt-orange text-white rounded  my-box-pad fragment](<span style="font-size:0.80em" >Use the package help files &lpar;`.CHM`&rpar; to find a library or function<br> <i>Example:</i> `MdePkg.chm`</span>)
+@box[bg-green-pp text-white rounded my-box-pad fragment](<span style="font-size:0.80em" > Search WorkSpace &lpar;`.INF`&rpar;  ”`LIBRARY_CLASS`”</span>)
 @snapend
 
 @snap[south-west span-50]
