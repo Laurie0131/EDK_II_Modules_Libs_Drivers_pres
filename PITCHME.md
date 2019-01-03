@@ -102,6 +102,7 @@ So the first thing we have in trying to break EDK II down is Modules:
 @snap[north span-60 fragment]
 <br>
 <br>
+<br>
 @box[bg-purple-pp text-white ](<span style="font-size:01.20em" ><b>Most Used Module Types</b></span>)
 @snapend
 
@@ -136,9 +137,8 @@ So the first thing we have in trying to break EDK II down is Modules:
 <br>
 <br>
 <br>
-<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span style="font-size:03.65em color: #a80000">@color[red](&#8680;)</span>
+<span style="font-size:03.65em">@color[red](&DDotrahd;)</span>
 @snapend
 
 Note:
