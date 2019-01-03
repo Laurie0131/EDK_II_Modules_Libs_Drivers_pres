@@ -116,15 +116,15 @@ So the first thing we have in trying to break EDK II down is Modules:
 <br>
 <p align="left" style="line-height:80%"><span style="font-size:0.9em; font-weight: bold;" >
 @color[#00b0f0](`PEI_CORE`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](`UEFI_APPLICATION`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[orange](`DXE_CORE`)<br><br>
-@color[orange](`BASE`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00b0f0](`DXE_RUNTIME_DRIVER`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
-@color[#87E2A9](`PEIM`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](`UEFI_DRIVER`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#87E2A9](`DXE_DRIVER`)<br>
+@color[orange](`BASE`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00b0f0](`DXE_RUNTIME_DRIVER`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+@color[#87E2A9](`PEIM`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](`UEFI_DRIVER`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#87E2A9](`DXE_DRIVER`)<br>
 </span></p>
 
 @snapend
 
 @snap[south span-100 fragment]
 <p align="left" style="line-height:80%"><span style="font-size:0.65em"><i>syntax:</i></span><br>
-<span style="font-size:0.65em; font-family: Courier New; color: yellow; font-weight: bold; background-color: #262626" > 
+<span style="font-size:0.65em; font-family: Courier New; color: yellow; font-weight: bold; background-color: #0d0d0d" > 
 &lt;ModuleTypes&gt;&nbsp; ::= &nbsp;&lt;ModuleType&gt; [&lt;Space&gt; &lt;ModuleType&gt;]
 </span> </p>
 @snapend
@@ -164,6 +164,12 @@ Note:
 - RT_DRIVER 
 - SAL_RT_DRIVER 
 - APPLICATION
+
+There are many Module types.  This also determines how the module code is compiled and how libraries are associated with each module.
+
+the syntax is: as shown on the slide
+
+First we will show the UEFI_APPLICATION type of module since it is the simplist and can be somewhat independant from the underlining hardware.
 
  
 ---?image=/assets/images/slides/Slide7.JPG
