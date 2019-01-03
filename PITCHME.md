@@ -330,14 +330,14 @@ For example there may be three library instances for a given function and one li
     }      
 
 ```
-@snap[north-west span-35]
+@snap[north-west span-40]
 <br>
 <br>
 <br>
 @box[bg-royal text-white rounded fragment ](<span style="font-size:01.0em" ><b>Constructors</b></span>)
 @snapend
 
-@snap[north-east span-35]
+@snap[north-east span-40]
 <br>
 <br>
 <br>
@@ -357,7 +357,6 @@ For example there may be three library instances for a given function and one li
 
 @snap[south-east span-40]
 @box[bg-purple-pp text-white rounded fragment ](<p style="line-height:80%" ><span style="font-size:0.80em" ><b>Open Source Example</b><br></span><span style="font-size:0.50em" >DxeCrc32GuidedSectionExtractLib <br>ShellPkg as used with Profiles<br>&nbsp; </span></p>)
-<br>
 <br>
 @snapend
 
