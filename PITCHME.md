@@ -96,6 +96,58 @@ So the first thing we have in trying to break EDK II down is Modules:
 
 
  
+---
+@title[Module Types]
+### <p align="right"><span class="gold" >Module Types</span></p>
+@snap[north span-40]
+<br>
+<br>
+@box[bg-purple-pp text-white ](<span style="font-size:01.25em" ><b>Most Used Module Types</b></span>)
+@snapend
+
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.8em" >&nbsp;
+@color[blue](`PEI_CORE`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](`UEFI_APPLICATION`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[orange](`DXE_CORE`)<br>
+@color[orange](`BASE`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[blue](`DXE_RUNTIME_DRIVER`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+@color[green](`PEIM`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](`UEFI_DRIVER`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[green](`DXE_DRIVER`)<br>
+</span></p>
+
+@snapend
+
+@snap[south span-100 fragment]
+<p align="left" style="line-height:80%"><span style="font-size:01.25em; font-family: Courier New; color: yellow;" > 
+&lt;ModuleTypes&gt;&nbsp;&nbsp;&nbsp;&nbsp; ::= &nbsp;&lt;ModuleType&gt; [&lt;Space&gt; &lt;ModuleType&gt;]
+</span> </p>
+@snapend
+
+Note:
+
+- BASE 
+- SEC  
+- PEI_CORE 
+- PEIM  
+- DXE_CORE 
+- DXE_DRIVER 
+- DXE_RUNTIME_DRIVER 
+- DXE_SAL_DRIVER 
+- DXE_SMM_DRIVER 
+- UEFI_DRIVER 
+- UEFI_APPLICATION
+- BASE LIBRARY
+- SECURITY_CORE 
+- PEI_CORE 
+- COMBINED_PEIM_DRIVER 
+- PIC_PEIM
+- RELOCATABLE_PEIM 
+- BS_DRIVER 
+- RT_DRIVER 
+- SAL_RT_DRIVER 
+- APPLICATION
+
+ 
 ---?image=/assets/images/slides/Slide7.JPG
 @title[Module Types]
 ### <p align="right"><span class="gold" >Module Types</span></p>
