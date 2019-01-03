@@ -178,24 +178,24 @@ First we will show the UEFI_APPLICATION type of module since it is the simplist 
 <p align="right"><span class="gold" ><b>Module Source Contents </b></span><span style="font-size:0.8em" >- minimum files</span></p>
 <table id="recTable">
 	<tr>
-		<td bgcolor="#121212" height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`MODULE_TYPE`</b></span></p></td>
+		<td bgcolor="#121212" height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>MODULE_TYPE</b></span></p></td>
 		<td bgcolor="#121212" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" ><b>Example Source files </b></span></p></td>
 	</tr>
 	<tr>
-		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`UEFI_APPLICATION`</b></span></p></td>
-		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>'Foo.c, Foo.inf` </b>)</span></p></td>
+		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>UEFI_APPLICATION</b></span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>Foo.c, Foo.inf </b>)</span></p></td>
 	</tr>
 	<tr>
-		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`UEFI_DRIVER`</b></span></p></td>
-		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>'FooDriver.c, FooDriver.h, FooDriver.vfr, FooDriver.uni, FooDriver.inf` </b>)</span></p></td>
+		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>UEFI_DRIVER</b></span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>FooDriver.c, FooDriver.h, FooDriver.vfr, FooDriver.uni, FooDriver.inf </b>)</span></p></td>
 	</tr>
 	<tr>
-		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`DXE_DRIVER`</b></span></p></td>
-		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>'FooDxe.c, FooDxe.h, FooDxe.inf` </b>)</span></p></td>
+		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>DXE_DRIVER</b></span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>FooDxe.c, FooDxe.h, FooDxe.inf</b>)</span></p></td>
 	</tr>
 	<tr>
-		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`DXE` or 'UEFI' Driver Library</b></span></p></td>
-		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>'FooLib.c, FooLib.h, FooLib.inf` </b>) w/ `LIBRARY_CLASS= "</span></p></td>
+		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>DXE or UEFI Driver Library</b></span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>'FooLib.c, FooLib.h, FooLib.inf </b>) w/ LIBRARY_CLASS= </span></p></td>
 	</tr>
 
 </table>
