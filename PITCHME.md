@@ -238,7 +238,7 @@ Example of the naming and number of files associated with the modules types
 @snapend
 
 @snap[west span-25 fragment]
-<p align="right"><span style="font-size:01.20em" >@color[yellow](<b>&vert;</b>)</span></p>
+<p align="right"><span style="font-size:01.50em" >@color[yellow](<b>&vert;</b>)</span></p>
 @snapend
 
 @snap[midpoint span-40 fragment]
@@ -256,6 +256,7 @@ Example of the naming and number of files associated with the modules types
 
 @snap[south span-80 ]
 @box[bg-green text-white rounded fragment ](<span style="font-size:01.20em" ><b>Consistent set of interfaces</b></span>)
+<br>
 <br>
 <br>
 @snapend
