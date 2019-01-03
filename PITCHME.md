@@ -169,7 +169,7 @@ There are many Module types.  This also determines how the module code is compil
 
 the syntax is: as shown on the slide
 
-First we will show the UEFI_APPLICATION type of module since it is the simplist and can be somewhat independant from the underlining hardware.
+First we will show the UEFI_APPLICATION type of module since it is the simplest and can be somewhat independent from the underlining hardware.
 
 
  
@@ -205,6 +205,11 @@ First we will show the UEFI_APPLICATION type of module since it is the simplist 
 @box[bg-lt-brick-trans text-white rounded fragment ](<span style="font-size:01.20em" ><b>.EFI file - Sources compiled to a single .EFI file</b></span>)
 @snapend
 
+Note:
+
+- the number of files is based on the Complexity of the driver and or application
+- There is a requirements that a module must have at least 1 .INF file
+- The resulting compilation will be a .EFI file 
  
 ---?image=/assets/images/slides/Slide9.JPG
 <!-- .slide: data-transition="none" -->
