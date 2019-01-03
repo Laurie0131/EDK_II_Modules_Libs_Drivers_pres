@@ -224,7 +224,7 @@ Example of the naming and number of files associated with the modules types
 ---
 @title[Library Class ]
 <p align="right"><span class="gold" ><b>Library Class</b></span></p>
-<span style="font-size:0.65em"><i>Syntax:</i></span>
+<span style="font-size:0.75em"><i>Syntax:</i></span>
 ```
 [LibraryClasses.common]
   <LibraryClassName>|<LibraryInstancePathToInf/Name.inf>
@@ -238,7 +238,7 @@ Example of the naming and number of files associated with the modules types
 @snapend
 
 @snap[west span-25 fragment]
-<p align="right"><span style="font-size:01.50em" >@color[yellow](<b>&vert;</b>)</span></p>
+<p align="right"><span style="font-size:02.50em" >@color[yellow](<b>&vert;</b>)</span></p>
 @snapend
 
 @snap[midpoint span-40 fragment]
