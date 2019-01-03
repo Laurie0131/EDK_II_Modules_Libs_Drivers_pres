@@ -460,82 +460,22 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 
 
 
----?image=/assets/images/slides/Slide35.JPG
-<!-- .slide: data-transition="none" -->
-@title[Library Instance Hierarch]
-<p align="right"><span class="gold" >Library Instance Hierarchy</span></p>
+
+---
+@title[Commonly Used Base Library Classes]
+<p align="right"><span class="gold" ><b>Commonly Used Base Library Classes</b></span></p>
+
+@snap[north-west span-50 fragment]
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em font-family: Courier New;" >BaseLib &nbsp;&nbsp;&nbsp;&nbsp;DebugLib <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UefiLib<br> &nbsp;&nbsp;UefiApplicationEntryPoint</span></p>
+@snapend
+
+
 
 Note:
 
-
-+++?image=/assets/images/slides/Slide36.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Library Instance Hierarch 02]
-<p align="right"><span class="gold" >Library Instance Hierarchy</span></p>
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide37.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Library Instance Hierarch 03]
-<p align="right"><span class="gold" >Library Instance Hierarchy</span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide38.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Library Instance Hierarch 04]
-<p align="right"><span class="gold" >Library Instance Hierarchy</span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide39.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Library Instance Hierarch 05]
-<p align="right"><span class="gold" >Library Instance Hierarchy</span></p>
-
-Note:
-
-
-
-+++?image=/assets/images/slides/Slide40.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Library Instance Hierarch 06]
-<p align="right"><span class="gold" >Library Instance Hierarchy</span></p>
-
-Note:
-- when the error Build : error 4000 : Instance of Library class [Foo…Lib] is not found in [WorkSpace/some module Lib.inf] consumed by module [WorkSpace/My Module.inf]
-
-
-- Library Instances (NOT Library Classes) form a hierarchy similar to UEFI drivers
-Some Library Instances will link your module to another Library DebugLib (Class)
-- DebugLibSerialPort (Instance)
-- SerialPort (Class)
-- Etc…
-
-The build process handles this, as long as a Library Instance is listed somewhere in the module hierarchy in the .DSC file
-
-
-Library instances, not library classes, form a hierarchy very similar to the way drivers work.
-One library instance you link to may link another library class without your awareness: 
-
-For example, If you linked the debug Lib and then someone doing the platform decides that they will use the debug Lib serial port for your debug Lib class,
-That debug serial port instance links against the serial Port library class which now links its own library instance.
-
-Now the build will handle this all in the background. 
-When it looks in your INF file it is going to see debug Lib, and when you look at the debug serial port it’s going to see serial port.  
-
-As long as there is at least one of each library instance in the workspace and in DSC file, it will be built behind the scenes. You won’t even realize that there is more than one dependency under your module, and behind the scenes is doing this for everything. 
-Another NOTE:  Most libraries are dependent on another library the same way that .c and .h files are dependent upon some other .c and .h files.. 
+Eye chart of many - MANY Many Libraries in the EDK II code
 
 
 ---?image=/assets/images/slides/Slide42.JPG
