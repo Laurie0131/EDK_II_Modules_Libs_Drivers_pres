@@ -77,7 +77,7 @@ Note:
 @snapend
 
 @snap[south span-90 fragment]
-@box[bg-purple-pp-trans text-white  rounded](<b>Modules: Building blocks of EDK II</b>)
+@box[bg-purple-pp-trans text-white  rounded](<b>Modules: &nbsp;&nbsp;Building Blocks of EDK II</b>)
 @snapend
 
 Note:

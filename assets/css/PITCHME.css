@@ -332,7 +332,7 @@ table#recTable{width:100%; border:1px solid gray;}
 .bg-red-pp { background: #a80000 !important; }
 /*#e71e60 pink gp */
 
-.bg-purple-pp-trans { background:rgba(112,48,160,0.9)!important; }
+.bg-purple-pp-trans { background:rgba(112,48,160,0.8)!important; }
 
 /*#f26225 orange gp */
 .bg-brick { background: #BF5122 !important; }
