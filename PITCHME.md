@@ -63,11 +63,9 @@ Note:
 
  
 ---?image=/assets/images/slides/Slide4.JPG
-<!-- .slide: data-transition="none" -->
 @title[Modules]
 ### <p align="right"><span class="gold" >Modules</span></p>
 @css[text-white fragment](<b> Smallest separate object compiled in EDK II</b>)
-<br>
 <br>
 <br>
 <br>
@@ -79,31 +77,8 @@ Note:
 @snapend
 
 @snap[south span-90 fragment]
-@box[bg-purple-pp text-white  rounded](Modules: Building blocks of EDK II)
+@box[bg-purple-pp-trans text-white  rounded](<b>Modules: Building blocks of EDK II</b>)
 @snapend
-
-Note:
-
-So the first thing we have in trying to break EDK II down is Modules:
- 
-- A module is the smallest separate object compiled in the EDK II.  A module is a single resultant .EFI file.
-- Module examples:
-- A UEFI/DXE driver 
-- A PEIM
-- A UEFI application
-- A Library 
-
-- All of these could be a module.  A modules could  be one entity
-
-
-
-+++?image=/assets/images/slides/Slide5.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Modules 02]
-### <p align="right"><span class="gold" >Modules</span></p>
-<br>
-Smallest separate object compiled in EDK II
 
 Note:
 
