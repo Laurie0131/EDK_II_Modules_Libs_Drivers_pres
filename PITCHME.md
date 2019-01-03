@@ -419,15 +419,15 @@ The simple answer is ”you have to know what the library class is based on.”
 <span style="font-size:0.70em" >your module to another</span></p>
 @snapend
 
-@snap[north span-100]
+@snap[north span-110]
 <br>
 <br>
 <br>
-@css[text-white fragment](`DebugLib`)
-@css[text-white fragment](`DebugLibSerialPort`<br> &lpar;Instance&rpar;)
-@css[text-white fragment](SerialPort<br> &lpar;Class&rpar;)
-@css[text-white fragment](`MdePkg`<br> &lpar;Specs&rpar;)
-@css[text-white fragment](@color[red](Build error):Instance of Library class &lbrack;`Foo. . Lib`&rbrack; is not found... <br>Consumed by module &lbrack;<i>My Module.inf</i>&rbrack;)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:01.0em" >`DebugLib`</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:01.0em" >`DebugLibSerialPort`<br> &lpar;Instance&rpar;</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:01.0em" >SerialPort<br> &lpar;Class&rpar;</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:01.0em" >`MdePkg`<br> &lpar;Specs&rpar;</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:01.0em" >@color[red](Build error):Instance of Library class &lbrack;`Foo. . Lib`&rbrack; is not found... <br>Consumed by module &lbrack;<i>My Module.inf</i>&rbrack;</span></p>)
 
 @snapend
 
