@@ -356,7 +356,7 @@ For example there may be three library instances for a given function and one li
 @snapend
 
 @snap[south-east span-40]
-@box[bg-purple-pp text-white rounded fragment ](<p style="line-height:80%" ><span style="font-size:0.80em" ><b>Open Source Example</b><br></span><span style="font-size:0.50em" >DxeCrc32GuidedSectionExtractLib <br>ShellPkg as used with Profiles<br>&nbsp; </span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad fragment ](<p style="line-height:80%" ><span style="font-size:0.80em" ><b>Open Source Example</b><br></span><span style="font-size:0.50em" >DxeCrc32GuidedSectionExtractLib <br>ShellPkg as used with Profiles<br>&nbsp; </span></p>)
 <br>
 @snapend
 
@@ -381,9 +381,10 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-royal text-white rounded  my-box-pad fragment](<p style="line-height:80%" align="left"><span style="font-size:0.80em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Library base upon</b><br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;1. Industry specs &lpar;UEFI, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`MdePkg/MdeModulePkg`)<br>&nbsp;&nbsp;&nbsp;2. Intel’s framework<sup>1</sup> specs <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`IntelFrameworkPkg/IntelFrameworkModulePkg`)</p>)
-@box[bg-lt-orange text-white rounded  my-box-pad fragment](<span style="font-size:0.80em" >Use the package help files &lpar;`.CHM`&rpar; to find a library or function<br> <i>Example:</i> `MdePkg.chm`</span>)
-@box[bg-green-pp text-white rounded my-box-pad fragment](<span style="font-size:0.80em" > Search WorkSpace &lpar;`.INF`&rpar;  ”`LIBRARY_CLASS`”</span>)
+@box[bg-royal text-white rounded  my-box-pad fragment](<p style="line-height:80%" align="left"><span style="font-size:0.80em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Library base upon</b><br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;1. Industry specs &lpar;UEFI, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`MdePkg/MdeModulePkg`)<br>&nbsp;&nbsp;&nbsp;2. Intel’s framework<sup>1</sup> specs <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`IntelFrameworkPkg/IntelFrameworkModulePkg`)</p><br>&nbsp;)
+@box[bg-brick text-white rounded  my-box-pad fragment](<span style="font-size:0.90em" >Use the package help files &lpar;`.CHM`&rpar; to find a library or function<br> <i>Example:</i> `MdePkg.chm`</span>)
+<br>
+@box[bg-green-pp text-white rounded my-box-pad fragment](<span style="font-size:0.90em" > Search WorkSpace &lpar;`.INF`&rpar;  ”`LIBRARY_CLASS`”<br>&nbsp; </span>)
 @snapend
 
 @snap[south-west span-50]
