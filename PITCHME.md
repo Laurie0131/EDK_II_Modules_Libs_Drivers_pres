@@ -176,7 +176,7 @@ First we will show the UEFI_APPLICATION type of module since it is the simplist 
 ---
 @title[Module Source - minimum files]
 <p align="right"><span class="gold" ><b>Module Source Contents </b></span><span style="font-size:0.8em" >- minimum files</span></p>
-<table id="recTable">
+<table id="recTable2">
 	<tr>
 		<td bgcolor="#121212" height=".025"><p style="line-height:010%"><span style="font-size:0.7em" ><b>MODULE_TYPE</b></span></p></td>
 		<td bgcolor="#121212" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em" ><b>Example Source files </b></span></p></td>
@@ -187,14 +187,14 @@ First we will show the UEFI_APPLICATION type of module since it is the simplist 
 	</tr>
 	<tr>
 		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`UEFI_DRIVER`</b></span></p></td>
-		<td  height=".025" width="70%"><p style="line-height:030%"><span style="font-size:0.5em" >@color[yellow](<b>`FooDriver.c, FooDriver.h, FooDriver.vfr,<br> FooDriver.uni, FooDriver.inf `</b>)</span></p></td>
+		<td  height=".025" width="70%"><p style="line-height:040%"><span style="font-size:0.5em" >@color[yellow](<b>`FooDriver.c, FooDriver.h, FooDriver.vfr,`<br>`FooDriver.uni, FooDriver.inf `</b>)</span></p></td>
 	</tr>
 	<tr>
 		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`DXE_DRIVER`</b></span></p></td>
 		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>`FooDxe.c, FooDxe.h, FooDxe.inf`</b>)</span></p></td>
 	</tr>
 	<tr>
-		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>Library</b></span></p></td>
+		<td  height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>DXE, UEFI or PEIM Library</b></span></p></td>
 		<td  height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>`FooLib.c, FooLib.h, FooLib.inf `</b>)&nbsp;&nbsp; ( w/ `LIBRARY_CLASS=` )</span></p></td>
 	</tr>
 

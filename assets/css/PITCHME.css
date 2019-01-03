@@ -321,6 +321,8 @@ h6 {
 table#recTable{width:100%; border:1px solid gray;}
 #recTable tr td {height:0.2px; border:1px solid gray;}
 
+table#recTable2{width:110%; border:1px solid gray;}
+#recTable2 tr td {height:0.2px; border:1px solid gray;}
 
 /* the following are for Back ground colors for using the boxes widget from gitpitch */
 
