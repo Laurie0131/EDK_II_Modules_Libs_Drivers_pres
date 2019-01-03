@@ -182,20 +182,20 @@ First we will show the UEFI_APPLICATION type of module since it is the simplest 
 		<td bgcolor="#121212" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em" ><b>Example Source files </b></span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`UEFI_APPLICATION`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>`Foo.c, Foo.inf `</b>)</span></p></td>
+		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`UEFI_APPLICATION`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >@color[yellow](<b>`Foo.c, Foo.inf `</b>)</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`UEFI_DRIVER`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:040%"><span style="font-size:0.5em" >@color[yellow](<b>`FooDriver.c, FooDriver.h, FooDriver.vfr,`<br>`FooDriver.uni, FooDriver.inf `</b>)</span></p></td>
+		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`UEFI_DRIVER`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:040%"><span style="font-size:0.65em" >@color[yellow](<b>`FooDriver.c, FooDriver.h, FooDriver.vfr,`<br>`FooDriver.uni, FooDriver.inf `</b>)</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>`DXE_DRIVER`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>`FooDxe.c, FooDxe.h, FooDxe.inf`</b>)</span></p></td>
+		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`DXE_DRIVER`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >@color[yellow](<b>`FooDxe.c, FooDxe.h, FooDxe.inf`</b>)</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.5em" ><b>DXE, UEFI or PEIM Library</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.5em" >@color[yellow](<b>`FooLib.c, FooLib.h, FooLib.inf `</b>)&nbsp;&nbsp; ( w/ `LIBRARY_CLASS=` )</span></p></td>
+		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>DXE, UEFI or PEIM Library</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >@color[yellow](<b>`FooLib.c, FooLib.h, FooLib.inf `</b>)&nbsp;&nbsp; ( w/ `LIBRARY_CLASS=` )</span></p></td>
 	</tr>
 
 </table>
