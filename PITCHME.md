@@ -229,10 +229,7 @@ Example of the naming and number of files associated with the modules types
 [LibraryClasses.common]
   <LibraryClassName>|<LibraryInstancePathToInf/Name.inf>
 
-```
-<span style="font-size:0.65em"><i>Example:</i></span>
-```
-DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
+  DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
 
 ```
 
@@ -241,7 +238,7 @@ DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
 @snapend
 
 @snap[west span-20]
-@box[bg-cyan text-white rounded fragment ](<span style="font-size:01.20em" ><b>Name</b></span>)
+@box[bg-royal text-white rounded fragment ](<span style="font-size:01.20em" ><b>Name</b></span>)
 @snapend
 
 
@@ -259,8 +256,8 @@ DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
 
 
 @snap[south span-90 ]
-@box[bg-green text-white rounded fragment ](<span style="font-size:01.0em" ><b>Consistent set of interfaces</b></span>)
-@box[bg-grey-50 text-white rounded fragment ](<span style="font-size:01.0em" ><b>Does not describe implementation of the interfaces</b></span>)
+@box[bg-green text-white rounded fragment ](<span style="font-size:01.20em" ><b>Consistent set of interfaces</b></span>)
+@box[bg-grey-50 text-white rounded fragment ](<span style="font-size:01.20em" ><b>Does not describe implementation of the interfaces</b></span>)
 @snapend
 
 
