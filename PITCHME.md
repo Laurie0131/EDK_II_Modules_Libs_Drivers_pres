@@ -409,14 +409,14 @@ The simple answer is ”you have to know what the library class is based on.”
 <br>
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:01.50em" >@color[yellow](<b>Form</b>)</span><br>
-<span style="font-size:0.80em" >a hierarchy similar to UEFI drivers</span></p>
+<span style="font-size:0.90em" >a hierarchy similar to UEFI drivers</span></p>
 @snapend
 
 @snap[north-east span-30]
 <br>
 <br>
 <p style="line-height:80%" align="right"><span style="font-size:01.50em" >@color[yellow](<b>Link</b>)</span><br>
-<span style="font-size:0.80em" >your module to another</span></p>
+<span style="font-size:0.90em" >your module to another</span></p>
 @snapend
 
 @snap[north span-100]
@@ -426,9 +426,9 @@ The simple answer is ”you have to know what the library class is based on.”
 <br>
 @css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.80em" >`DebugLib`</span></p>)
 @css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.70em" >`DebugLibSerialPort`<br> &lpar;Instance&rpar;</span></p>)
-@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.80em" >SerialPort &lpar;Class&rpar;</span></p>)
-@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:01.0em" >`MdePkg` &lpar;Specs&rpar;</span></p>)
-@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.70em" ><br>@color[red](Build error):Instance of Library class &lbrack;`Foo. . Lib`&rbrack; is not found... <br>Consumed by module &lbrack;<i>My Module.inf</i>&rbrack;</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.80em" ><br>SerialPort &lpar;Class&rpar;</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:01.0em" ><br>`MdePkg` &lpar;Specs&rpar;</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.70em" ><br><br>@color[red](<b>Build error</b>):Instance of Library class &lbrack;`Foo`...`Lib`&rbrack; is not found... <br>Consumed by module &lbrack;<i>My Module.inf</i>&rbrack;</span></p>)
 
 @snapend
 
