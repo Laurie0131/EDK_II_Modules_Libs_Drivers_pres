@@ -309,6 +309,7 @@ For example there may be three library instances for a given function and one li
 <br>
 <br>
 <br>
+<br>
 <span style="font-size:0.85em">@color[yellow](<b>Syntax:</b>)</span>
 ```
     Pkg/MyModule/MyModule.inf {
@@ -350,12 +351,13 @@ For example there may be three library instances for a given function and one li
 <br>
 <br>
 <br>
-<br>
 @box[bg-navy text-white rounded fragment ](<span style="font-size:0.90em" ><b>NOT "`...LibNull`" instance</b></span>)
 @snapend
 
-@snap[south-east span-45]
-@box[bg-purple-pp text-white rounded fragment ](<p style="line-height:80%" align="right"><span style="font-size:0.90em" ><b>Open Source Example</b><br></span><span style="font-size:0.50em" >DxeCrc32GuidedSectionExtractLib <br>ShellPkg as used with Profiles </span></p>)
+@snap[south-east span-40]
+@box[bg-purple-pp text-white rounded fragment ](<p style="line-height:80%" ><span style="font-size:0.90em" ><b>Open Source Example</b><br></span><span style="font-size:0.50em" >DxeCrc32GuidedSectionExtractLib <br>ShellPkg as used with Profiles </span></p>)
+<br>
+<br>
 @snapend
 
 Note:
