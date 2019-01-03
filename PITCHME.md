@@ -356,7 +356,7 @@ For example there may be three library instances for a given function and one li
 @snapend
 
 @snap[south-east span-40]
-@box[bg-purple-pp text-white rounded fragment ](<p style="line-height:80%" ><span style="font-size:0.90em" ><b>Open Source Example</b><br></span><span style="font-size:0.50em" >DxeCrc32GuidedSectionExtractLib <br>ShellPkg as used with Profiles<br> </span></p>)
+@box[bg-purple-pp text-white rounded fragment ](<p style="line-height:80%" ><span style="font-size:0.80em" ><b>Open Source Example</b><br></span><span style="font-size:0.50em" >DxeCrc32GuidedSectionExtractLib <br>ShellPkg as used with Profiles<br>&nbsp; </span></p>)
 <br>
 <br>
 @snapend
