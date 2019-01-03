@@ -207,48 +207,98 @@ First we will show the UEFI_APPLICATION type of module since it is the simplest 
 
 Note:
 
-- the number of files is based on the Complexity of the driver and or application
-- There is a requirements that a module must have at least 1 .INF file
+Example of the naming and number of files associated with the modules types
+
+- the number of files is based on the Complexity of the UEFI / DXE driver and or UEFI application
+- There is a requirement that a module must have at least 1 .INF file
 - The resulting compilation will be a .EFI file 
  
----?image=/assets/images/slides/Slide9.JPG
-<!-- .slide: data-transition="none" -->
-@title[Module Source - minimum files]
-<p align="right"><span class="gold" >Module Source Contents </span><span style="font-size:0.8em" >- minimum files</span></p>
+
+---?image=assets/images/binary-strings-black2.jpg
+@title[EDK II Library Modules Section]
+<br><br><br><br><br>
+### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EDK II Library Modules</span>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+
+---
+@title[Library Class ]
+<p align="right"><span class="gold" ><b>Library Class</b></span></p>
+<span style="font-size:0.65em"><i>Syntax:</i></span>
+```
+[LibraryClasses.common]
+  <LibraryClassName>|<LibraryInstancePathToInf/Name.inf>
+
+```
+<span style="font-size:0.65em"><i>Example:</i></span>
+```
+DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
+
+```
+
+@snap[west span-25]
+<p align="right"><span style="font-size:01.20em" >&vert;</span></p>
+@snapend
+
+@snap[west span-20]
+@box[bg-cyan text-white rounded fragment ](<span style="font-size:01.20em" ><b>Name</b></span>)
+@snapend
+
+
+@snap[midpoint span-40 fragment]
+@box[bg-purple-pp text-white rounded  ](<span style="font-size:01.20em" ><b>Implementation<sub>1</sub></b></span>)
+@snapend
+
+@snap[midpoint span-40 fragment]
+@box[bg-green2 text-white rounded  ](<span style="font-size:01.20em" ><b>Implementation<sub>2</sub></b></span>)
+@snapend
+
+@snap[midpoint span-40 fragment]
+@box[bg-brick text-white rounded  ](<span style="font-size:01.20em" ><b>Implementation<sub>3</sub></b></span>)
+@snapend
+
+
+@snap[south span-90 ]
+@box[bg-green text-white rounded fragment ](<span style="font-size:01.0em" ><b>Consistent set of interfaces</b></span>)
+@box[bg-grey-50 text-white rounded fragment ](<span style="font-size:01.0em" ><b>Does not describe implementation of the interfaces</b></span>)
+@snapend
+
+
 
 Note:
 
-+++?image=/assets/images/slides/Slide10.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Module Source - minimum files 02 ]
-<p align="right"><span class="gold" >Module Source Contents </span><span style="font-size:0.8em" >- minimum files</span></p>
+#### Syntax
 
-Note:
+- [LibraryClasses.common]
+-   <LibraryClassName>|<LibraryInstancePathToInf/Name.inf>
+-   DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
 
-+++?image=/assets/images/slides/Slide11.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Module Source - minimum files 03 ]
-<p align="right"><span class="gold" >Module Source Contents </span><span style="font-size:0.8em" >- minimum files</span></p>
+It has a library class name, a pipe symbol and then a library instance, which is identified by the path to the INF, then the INF itself. 
 
-Note:
+So for example, the “DebugLib”, class is identified by the MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
+The library instance, BaseDebugLibNull, has all the required interfaces for debug Lib.  And that’s the one that will be linked against the modules in this example.
 
-+++?image=/assets/images/slides/Slide12.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Module Source - minimum files 04 ]
-<p align="right"><span class="gold" >Module Source Contents </span><span style="font-size:0.8em" >- minimum files</span></p>
 
-Note:
+- Consistent set of interfaces 
+#### First, a basic library class definition: <br>
+A library class is a set of interfaces; it does not have any implementation information
 
-+++?image=/assets/images/slides/Slide13.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Module Source - minimum files 05 ]
-<p align="right"><span class="gold" >Module Source Contents </span><span style="font-size:0.8em" >- minimum files</span></p>
+It is identified by one GUID. And usually contains
+- some macros, 
+- sometimes global variables, 
+- some functions uniquely
 
-Note:
+ Each library class has one GUID, and there is a mapping of a library class to library instance. 
+For example there may be three library instances for a given function and one library class that they would all represent. In this example, the DSC file is going to map library class to a library instance.
+
+
+- Does not describe implementation of the interfaces
+- The implementation is decided at the platform level
+- DSC file maps class to instance
+
+- library class
+
+- At the top of the slide there is an example of [libraryclasses.common] for a DSC file.
 
 
 
