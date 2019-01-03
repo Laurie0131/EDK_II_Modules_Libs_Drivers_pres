@@ -468,7 +468,7 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @snap[north-west span-50 fragment]
 <br>
 <br>
-<p style="line-height:80%" align="left"><span style="font-size:0.80em font-family: Courier New;" >BaseLib &nbsp;&nbsp;&nbsp;&nbsp;DebugLib <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UefiLib<br> &nbsp;&nbsp;UefiApplicationEntryPoint</span></p>
+<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New;" >BaseLib &nbsp;&nbsp;&nbsp;&nbsp;DebugLib <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UefiLib<br> &nbsp;&nbsp;UefiApplicationEntryPoint</span></p>
 @snapend
 
 
