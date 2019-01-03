@@ -380,7 +380,7 @@ Note:
 @snap[north-west span-100]
 <br>
 <br>
-@box[bg-royal text-white rounded  my-box-pad fragment](<p style="line-height:80%" align="left"><span style="font-size:01.0em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Library base upon</b><br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Industry specs &lpar;UEFI, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`MdePkg/MdeModulePkg`)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Intel’s framework<sup>1</sup> specs <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`IntelFrameworkPkg/IntelFrameworkModulePkg`)<br>&nbsp;</p>)
+@box[bg-royal text-white rounded  my-box-pad fragment](<p style="line-height:80%" align="left"><span style="font-size:01.0em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Library based upon</b><br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Industry specifications &lpar;UEFI, PCI, USB, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`MdePkg/MdeModulePkg`)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Intel’s framework<sup>1</sup> specs <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`IntelFrameworkPkg/IntelFrameworkModulePkg`)<br>&nbsp;</p>)
 @box[bg-brick text-white rounded  my-box-pad fragment](<span style="font-size:0.90em" >Use the package help files &lpar;`.CHM`&rpar; to find a library or function<br> <i>Example:</i> `MdePkg.chm`</span>)
 <br>
 @box[bg-green text-white rounded  fragment](<span style="font-size:0.90em" > Search WorkSpace &lpar;`.INF`&rpar;  ”`LIBRARY_CLASS`” </span>)
@@ -396,46 +396,6 @@ Note:
 How do you find library classes?<br>
 The simple answer is ”you have to know what the library class is based on.”
 - For example, if it is based on industry standards like the UEFI, PI, SMBIOS, ACPI, etc…you are probably going to find it in the MDE package or maybe in the MDE module package. 
-
-
----?image=/assets/images/slides/Slide30.JPG
-<!-- .slide: data-transition="none" -->
-@title[Locating library classes]
-<p align="right"><span class="gold" >Locating Library Classes</span></p>
-
-Note:
-
-How do you find library classes?<br>
-The simple answer is ”you have to know what the library class is based on.”
-- For example, if it is based on industry standards like the UEFI, PI, SMBIOS, ACPI, etc…you are probably going to find it in the MDE package or maybe in the MDE module package. 
-
-+++?image=/assets/images/slides/Slide31.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Locating library classes 02]
-<p align="right"><span class="gold" >Locating Library Classes</span></p>
-
-Note:
-
-How do you find library classes?<br>
-The simple answer is ”you have to know what the library class is based on.”
-- For example, if it is based on industry standards like the UEFI, PI, SMBIOS, ACPI, etc…you are probably going to find it in the MDE package or maybe in the MDE module package. 
-
-
-
-+++?image=/assets/images/slides/Slide32.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Locating library classes 03]
-<p align="right"><span class="gold" >Locating Library Classes</span></p>
-
-Note:
-
-How do you find library classes?<br>
-The simple answer is ”you have to know what the library class is based on.”
-- For example, if it is based on industry standards like the UEFI, PI, SMBIOS, ACPI, etc…you are probably going to find it in the MDE package or maybe in the MDE module package. 
-
-
 
 
 ---?image=/assets/images/slides/Slide35.JPG
