@@ -1,6 +1,8 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[EDK II Modules]
-<br><br><br><br><br>
+<br><br><br>
+<span style="font-size:0.75em" >This slide deck has moved to:https://gitpitch.com/tianocore-training/EDK_II_Modules_Libs_Drivers_pres/master#/</span>
+<br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
 #### EDK II Modules: Libs, Drivers & Apps
@@ -64,6 +66,21 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Modules]
 ### <p align="right"><span class="gold" >Modules</span></p>
+@css[text-white fragment](<b> Smallest separate object compiled in EDK II</b>)
+<br>
+<br>
+<br>
+<br>
+@css[text-yellow fragment](<b>@color[yellow](Compiles to)<br>@color[yellow](`.EFI` File)</b>)
+
+
+@snap[east span-35]
+@css[ text-white fragment](<b>UEFI/DXE Driver <br>@color[yellow](PEIM)<br>@color[orange](UEFI App.) </b>or <b><br>@color[#00ffff](Library) </b>)
+@snapend
+
+@snap[south span-90 fragment]
+@box[bg-purple-pp text-white  rounded](Modules: Building blocks of EDK II)
+@snapend
 
 Note:
 
