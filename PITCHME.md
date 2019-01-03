@@ -200,9 +200,9 @@ First we will show the UEFI_APPLICATION type of module since it is the simplest 
 
 </table>
 @snap[south-west span-100]
-@box[bg-gold2-trans text-white rounded fragment ](<span style="font-size:01.20em" ><b>Complexity - Greater number of source files</b></span>)
+@box[bg-brick-trans text-white rounded fragment ](<span style="font-size:01.20em" ><b>Complexity - Greater number of source files</b></span>)
 @box[bg-lt-orange-trans text-white rounded fragment ](<span style="font-size:01.20em" ><b>.INF file - One file is required per module</b></span>)
-@box[bg-brick-trans text-white rounded fragment ](<span style="font-size:01.20em" ><b>.EFI file - Sources compiled to a single .EFI file</b></span>)
+@box[bg-gold2-trans text-white rounded fragment ](<span style="font-size:01.20em" ><b>.EFI file - Sources compiled to a single .EFI file</b></span>)
 @snapend
 
 Note:
