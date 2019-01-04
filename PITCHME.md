@@ -940,43 +940,25 @@ Note:
 - There are other optional fields
 - Check the Extended INF Specification
 
----?image=/assets/images/slides/Slide85.JPG
-@title[Application INF Files -DEFINES]
-<p align="right"><span class="gold" >Application INF Files [DEFINES]</span></p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" ><font color="yellow">*EDK II Specifications: </font> <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications">https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications </a></span>
-
-Note:
-
-- There are other optional fields
-- Check the Extended INF Specification
-
 #### defines
 - INF_VERSION 1.25* - Version of the INF spec.
 - BASE_NAME What’s the name of the application
-- FILE_GUID Create a GUID for your module
+- FILE_GUID Create a GUID for your module guidgen.com
 - MODULE_UNI_FILE Meta-data - localization for Description & Abstract
 - VERSION_STRING Version number
-- ENTRY_POINT Name of the function to call
+- ENTRY_POINT Name of the function to call ie MyMainEntryPoint();
 - MODULE_TYPE UEFI_APPLICATION
 
 ---
 <!-- .slide: data-background-transition="none" -->
 @title[Sample INF file]
-<p align="right"><span class="gold" >Sample INF file</span></p>
+<p align="right"><span class="gold" ><b>Sample INF file</b></span></p>
 
 ```XML
 [Defines]
   INF_VERSION                    = 0x00010005
   BASE_NAME                      = MyApplication
+  MODULE_UNI_FILE                = MyFile.uni
   FILE_GUID                      = 215cdcfb-1cfc-47e0-9c02-47048c21d20d
   MODULE_TYPE                    = UEFI_APPLICATION
   VERSION_STRING                 = 1.0
@@ -1005,12 +987,13 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Sample INF file]
-<p align="right"><span class="gold" >Sample INF file</span></p>
+<p align="right"><span class="gold" ><b>Sample INF file</b></span></p>
 
 ```XML
 [Defines]
   INF_VERSION                    = 0x00010005
   BASE_NAME                      = MyApplication
+  MODULE_UNI_FILE                = MyFile.uni
   FILE_GUID                      = 215cdcfb-1cfc-47e0-9c02-47048c21d20d
   MODULE_TYPE                    = UEFI_APPLICATION
   VERSION_STRING                 = 1.0
@@ -1034,10 +1017,19 @@ Note:
 ```
 
 @[1-7](Defines for this .INF file; BASE_NAME results in this name.efi file)
-@[9-10]( Source: .c, .h, .uni, .vfr, any files needed for the compiler/linker/lib etc)
-@[12-16](Package dependencies and Libraries this module will include in its final binary image)
+@[10-11]( Source: .c, .h, .uni, .vfr, any files needed for the compiler/linker/lib etc)
+@[13-17](Package dependencies and Libraries this module will include in its final binary image)
 
 Note:
+
+-  INF_VERSION            see spec
+-  BASE_NAME            BASE_NAME results in this name.efi file
+-  MODULE_UNI_FILE     OPTIONAL: UNI Text file for localization of descriptions and abstract MyFile.uni
+-  FILE_GUID           Always get a new quid
+-  MODULE_TYPE         UEFI_APPLICATION or driver or PEIM or DXE
+-  VERSION_STRING       User defined string number dot number
+-  ENTRY_POINT         The main entry point of the module in one of the .c files in list of sources
+
 
 ---?image=/assets/images/slides/Slide88.JPG
 @title[Building an Application]
