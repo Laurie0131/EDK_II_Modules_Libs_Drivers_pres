@@ -1016,7 +1016,11 @@ Note:
 
 ```
 
-@[1-7](Defines for this .INF file; BASE_NAME results in this name.efi file)
+@[1-8](Defines for this .INF file; BASE_NAME results in this name.efi file)
+@[4-4](OPTIONAL: UNI Text file for localization of descriptions and abstract  MyFile.uni)
+@[5-5](Always get a new quid .i.e http://guidgen.com)
+@[7-7](User defined string syntax is `number` dot `number`)
+@[8-8](The main entry point of the module in one of the .c files in list of sources)
 @[10-11]( Source: .c, .h, .uni, .vfr, any files needed for the compiler/linker/lib etc)
 @[13-17](Package dependencies and Libraries this module will include in its final binary image)
 
