@@ -468,18 +468,19 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @snap[north-west span-50 fragment]
 <br>
 <br>
-<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" >BaseLib &nbsp;&nbsp;&nbsp;&nbsp;DebugLib <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UefiLib<br> &nbsp;&nbsp;UefiApplicationEntryPoint</span></p>
+<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" >BaseLib &nbsp;&nbsp;&nbsp;&nbsp;DebugLib <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UefiLib<br>
+&nbsp;UefiApplicationEntryPoint</span></p>
 @snapend
 
 
-@snap[north-east span-50 fragment]
+@snap[north-east span-60 fragment]
 <br>
 <br>
-<p style="line-height:90%" align="right"><span style="font-size:0.80em; font-family: Courier New; color: #00b0f0 font-weight: bold;" >
-@color[#87E2A9](BaseMemLib) &nbsp;&nbsp;&nbsp;&nbsp;DebugLib &nbsp;&nbsp;
+<p style="line-height:90%" align="right"><span style="font-size:0.80em; font-family: Courier New; color: #00b0f0; font-weight: bold;" >
+@color[#87E2A9](BaseMemLib) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br>UefiBootServicesTableLib&nbsp;&nbsp;
-<br> UefiDxeCoreEntryPoint&nbsp;&nbsp;
-<br>PeiCoreEntryPoint
+<br> DxeCoreEntryPoint&nbsp;&nbsp;PeiCoreEntryPoint
 <br>DevicePathLib&nbsp;&nbsp;&nbsp;&nbsp;UefiScsiLib
 <br> &nbsp;&nbsp;PrintLib&nbsp;&nbsp;@color[yellow](PeimEntryPoint)&nbsp;&nbsp;</span></p>
 @snapend
