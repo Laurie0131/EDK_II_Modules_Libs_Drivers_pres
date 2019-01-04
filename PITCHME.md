@@ -482,8 +482,8 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 <br>UefiBootServicesTableLib&nbsp;&nbsp;
 <br> @color[yellow](DxeCoreEntryPoint)&nbsp;&nbsp; 
 <br>DevicePathLib&nbsp;&nbsp;IoLib
-<br> &nbsp;&nbsp;PrintLib&nbsp;@color[yellow](PeimEntryPoint)
-<br>&nbsp;UefiScsiLib</span></p>
+<br> &nbsp;&nbsp;PrintLib&nbsp;nbsp;@color[yellow](PeimEntryPoint)
+<br>&nbsp;UefiScsiLib @color[#87E2A9](BaseMemoryLib)</span></p>
 @snapend
 
 @snap[north-west span-100 fragment]
@@ -493,7 +493,7 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 CpuLib&nbsp;&nbsp;UefiUsbLib&nbsp;PciLib<br>
 @color[#87E2A9](MemoryAllocationLib)<br>
 &nbsp;@color[yellow](PeiCoreEntryPoint)<br>
-&nbsp; &nbsp;UefiRuntimeLib &nbsp; &nbsp;&nbsp;@color[#87E2A9](BaseMemoryLib)</span></p>
+&nbsp; &nbsp;UefiRuntimeLib &nbsp; &nbsp;&nbsp;@color[#87E2A9](SmmMemLib)</span></p>
 @snapend
 
 
@@ -503,8 +503,8 @@ CpuLib&nbsp;&nbsp;UefiUsbLib&nbsp;PciLib<br>
 <p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; color: #FFC000; font-weight: bold;" ><br><br><br><br><br><br><br>
 &nbsp;@color[#00b0f0](DxeSerivesLib)&nbsp;&nbsp;&nbsp;@color[yellow](SynchronizationLib)&nbsp;PciExpressLib<br>
 DxePcdLib&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00b0f0](UefiRuntimeServicesTableLib) <br>
-&nbsp; &nbsp;PciSegmentLibLib &nbsp;PeiServicesLib<br>
-&nbsp; PeiPcdLib&nbsp;DxeHobLib &nbsp;&nbsp;SmmMemLib</span></p>
+&nbsp; &nbsp;PciSegmentLibLib &nbsp;@color[yellow](PeiServicesLib)<br>
+&nbsp; PeiPcdLib&nbsp;&nbsp;DxeHobLib &nbsp;&nbsp;UefiFileHandleLib</span></p>
 @snapend
 
 Note:
