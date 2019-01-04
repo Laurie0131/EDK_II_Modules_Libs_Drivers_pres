@@ -804,10 +804,30 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Interface available: </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em color: black" >All</span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em color: black" >All </span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All</span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All </span></p></td>
 	</tr>
-</table>
+<	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Consume protocols? </b></span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES</span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Produce protocols? </b></span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES</span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >NO </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Typically Driven by? </b></span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >System</span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >User </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Typically use? </b></span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Support Hardware</span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Any </span></p></td>
+	</tr>
+/table>
 
 ---?image=/assets/images/slides/Slide73.JPG
 <!-- .slide: data-transition="none" -->
