@@ -841,7 +841,6 @@ Note:
 ![MyAppdir](/assets/images/MyAppDir.png)
 <br>
 <br>
-<br>
 @snapend
 
 Note:
