@@ -481,8 +481,8 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @color[#87E2A9](BaseMemLib) &nbsp;&nbsp;&nbsp;&nbsp;PrintLib
 <br>UefiBootServicesTableLib&nbsp;&nbsp;
 <br> DxeCoreEntryPoint&nbsp;&nbsp;<br>@color[yellow](PeiCoreEntryPoint)&nbsp;&nbsp; 
-<br>DevicePathLib&nbsp;&nbsp;&nbsp;&nbsp;UefiScsiLib
-<br> &nbsp;&nbsp;PrintLib&nbsp;&nbsp;&nbsp;@color[yellow](PeimEntryPoint)&nbsp;&nbsp;</span></p>
+<br>DevicePathLib&nbsp;&nbsp;UefiScsiLib
+<br> &nbsp;&nbsp;PrintLib&nbsp;@color[yellow](PeimEntryPoint)&nbsp;&nbsp;</span></p>
 @snapend
 
 @snap[north-west span-100 fragment]
