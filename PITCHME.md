@@ -480,9 +480,9 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 <p style="line-height:90%" align="right"><span style="font-size:0.80em; font-family: Courier New; color: #00b0f0; font-weight: bold;" >
 @color[#87E2A9](BaseMemLib) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br>UefiBootServicesTableLib&nbsp;&nbsp;
-<br> DxeCoreEntryPoint&nbsp;&nbsp;PeiCoreEntryPoint
+<br> DxeCoreEntryPoint&nbsp;&nbsp;<br>PeiCoreEntryPoint
 <br>DevicePathLib&nbsp;&nbsp;&nbsp;&nbsp;UefiScsiLib
-<br> &nbsp;&nbsp;PrintLib&nbsp;&nbsp;@color[yellow](PeimEntryPoint)&nbsp;&nbsp;</span></p>
+<br> &nbsp;&nbsp;PrintLib&nbsp;&nbsp;;&nbsp;@color[yellow](PeimEntryPoint)&nbsp;&nbsp;</span></p>
 @snapend
 
 
