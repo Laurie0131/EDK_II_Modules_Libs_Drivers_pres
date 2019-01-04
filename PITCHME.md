@@ -512,7 +512,7 @@ Key point is that this soon becomes an Eye chart of many - MANY Many Libraries i
 
 ---?image=/assets/images/slides/Slide48.JPG
 @title[MdePkg Library Doc. Location ]
-<p align="right"><span class="gold" >MdePkg Library .CHM file Location </span></p>
+<p align="right"><span class="gold" ><b>MdePkg Library .CHM file Location</b> </span></p>
 <span style="font-size:0.8em" ><a href="https://github.com/tianocore/tianocore.github.io/wiki/UDK2018#documentation">tianocore.org UDK2018 Documentation </a>  on </span>
 <br>
 <br>
@@ -527,7 +527,7 @@ Key point is that this soon becomes an Eye chart of many - MANY Many Libraries i
 ---?image=/assets/images/slides/Slide51.JPG
 <!-- .slide: data-transition="none" -->
 @title[Library Navigation Demonstration]
-<p align="right"><span class="gold" >Library Navigation Demonstration</span></p>
+<p align="right"><span class="gold" ><b>Library Navigation Demonstration</b></span></p>
 
 Note:
 
@@ -543,7 +543,7 @@ chm file unlock – right click –properties –check unblock
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Library Navigation Demonstration video]
-<p align="right"><span class="gold" >Library Navigation Demonstration</span></p>
+<p align="right"><span class="gold" ><b>Library Navigation Demonstration</b></span></p>
 ![video](https://www.youtube.com/embed/s8Zw1w1iQS4)
 Note:
 
@@ -566,7 +566,7 @@ chm file unlock – right click –properties –check unblock
 
 ---?image=/assets/images/slides/Slide54.JPG
 @title[Defining a UEFI Application]
-<p align="right"><span class="gold" >Defining a UEFI Application</span></p>
+<p align="right"><span class="gold" ><b>Defining a UEFI Application</b></span></p>
 <span style="font-size:01.0em" ><font color="#92D050">Characteristics of a UEFI Loadable Image</font></span><br>
 <br>
 @ul[no-bullet]
@@ -597,7 +597,7 @@ The same set of UEFI or firmware interfaces are available to applications that d
 
 ---?image=/assets/images/slides/Slide56_1.JPG
 @title[Defining a UEFI Application -Usages]
-<p align="right"><span class="gold" >Defining a UEFI Application</span></p>
+<p align="right"><span class="gold" ><b>Defining a UEFI Application</b></span></p>
 <span style="font-size:01.0em" ><font color="#92D050">UEFI Loadable Image Usages</font></span><br>
 <br>
 @ul[no-bullet]
@@ -615,7 +615,7 @@ Their usages include factory testing, platform diagnostics (no OS required), and
 ---?image=/assets/images/slides/Slide58.JPG
 <!-- .slide: data-transition="none" -->
 @title[Executing Applications]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 
 Note:
@@ -637,7 +637,7 @@ and control is returned to the UEFI component that loaded the application.
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Executing Applications 02]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 
 Note:
@@ -661,7 +661,7 @@ and control is returned to the UEFI component that loaded the application.
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Executing Applications 03]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 
 Note:
@@ -684,7 +684,7 @@ and control is returned to the UEFI component that loaded the application.
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Executing Applications 04]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 
 Note:
@@ -707,7 +707,7 @@ and control is returned to the UEFI component that loaded the application.
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Executing Applications 05]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 
 Note:
@@ -727,7 +727,7 @@ and control is returned to the UEFI component that loaded the application.
 ---?image=/assets/images/slides/Slide65.JPG
 <!-- .slide: data-transition="none" -->
 @title[Executing OS Load App]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 Note:
 
@@ -738,7 +738,7 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Executing OS Load App 02]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 Note:
 
@@ -749,7 +749,7 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Executing OS Load App 03]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 Note:
 
@@ -760,7 +760,7 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Executing OS Load App 04]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 Note:
 
@@ -771,7 +771,7 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Executing OS Load App 05]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 Note:
 
@@ -782,7 +782,7 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Executing OS Load App 06]
-<p align="right"><span class="gold" >Executing Applications</span></p>
+<p align="right"><span class="gold" ><b>Executing Applications</b></span></p>
 
 Note:
 
@@ -793,7 +793,7 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 ---?image=/assets/images/slides/Slide73.JPG
 <!-- .slide: data-transition="none" -->
 @title[Driver vs. Application]
-<p align="right"><span class="gold" >Driver Vs. Application</span></p>
+<p align="right"><span class="gold" ><b>Driver Vs. Application</b></span></p>
 
 Note:
 
@@ -802,7 +802,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Driver vs. Application 02]
-<p align="right"><span class="gold" >Driver Vs. Application</span></p>
+<p align="right"><span class="gold" ><b>Driver Vs. Application</b></span></p>
 
 Note:
 
@@ -811,7 +811,7 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Driver vs. Application 03]
-<p align="right"><span class="gold" >Driver Vs. Application</span></p>
+<p align="right"><span class="gold" ><b>Driver Vs. Application</b></span></p>
 
 Note:
 
@@ -826,7 +826,7 @@ Note:
 ---?image=/assets/images/slides/Slide78.JPG
 <!-- .slide: data-transition="none" -->
 @title[Application Files Placement]
-<p align="right"><span class="gold" >Application Files Placement</span></p>
+<p align="right"><span class="gold" ><b>Application Files Placement</b></span></p>
 
 Note:
 Same as slide
