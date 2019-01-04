@@ -884,23 +884,61 @@ See EDK II INF  File Specification for more details and examples
 
 
 
----?image=/assets/images/slides/Slide83.JPG
-@title[Module .INF File]
-<p align="right"><span class="gold" >Module .INF File</span></p><br>
-<span style="font-size:01.1em" ><font color="yellow">Syntax</font></span>
-<br>
-<br>
-<br>
-<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Application/VariableInfo/VariableInfo.inf">INF text file example </a></span>
+
+
+
+---
+@title[Application INF Files -DEFINES]
+<p align="right"><span class="gold" >Application INF Files [DEFINES]</span></p>
+
+
+
+<table id="recTable2">
+	<tr>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.8em" ><b>Field</b></span></p></td>
+		<td align="center" bgcolor="#0070C0" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.8em" ><b>Description</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`INF_VERSION`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >1.25* - Version of the INF spec. </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`BASE_NAME`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >What’s the name of the application </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`FILE_GUID`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >Create a GUID for your module </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_UNI_FILE`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >Meta-data - localization for Description & Abstract </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`VERSION_STRING`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" > Version number</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`ENTRY_POINT`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" > Name of the entry function to call </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_TYPE`</b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" > UEFI_APPLICATION</span></p></td>
+	</tr>
+</table>
+
+
+
+@snap[south-west span-100]
+<span style="font-size:0.5em" ><font color="yellow">*EDK II Specifications: </font> <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications">https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications </a></span>
+@snapend
+
 
 Note:
 
-Update to define all Sources (.c, .h, .uni) , libraries, Packages, Guids,  PCDs be used by the Module
-
-See EDK II INF  File Specification for more details and examples
-
-1 Depex only used with specific Module types
-
+- There are other optional fields
+- Check the Extended INF Specification
 
 ---?image=/assets/images/slides/Slide85.JPG
 @title[Application INF Files -DEFINES]
