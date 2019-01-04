@@ -472,6 +472,16 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @snapend
 
 
+@snap[north-east span-50 fragment]
+<br>
+<br>
+<p style="line-height:90%" align="right"><span style="font-size:0.80em; font-family: Courier New; color: blue; font-weight: bold;" >@color[green](BaseMemLib) &nbsp;&nbsp;&nbsp;&nbsp;DebugLib &nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UefiBootServicesTableLib&nbsp;&nbsp;
+<br> &nbsp;&nbsp;UefiDxeCoreEntryPoint&nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;PeiCoreEntryPoint<br> &nbsp;&nbsp;DevicePathLib&nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;UefiScsiLibt<br> &nbsp;&nbsp;PrintLib&nbsp;&nbsp;@color[yellow](PeimEntryPoint)&nbsp;&nbsp;</span></p>
+@snapend
+
 
 Note:
 
