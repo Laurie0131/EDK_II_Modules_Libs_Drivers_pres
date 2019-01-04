@@ -893,14 +893,14 @@ See EDK II INF  File Specification for more details and examples
 
 
 
-<table id="recTable2">
+<table id="recTable">
 	<tr>
 		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Field</b></span></p></td>
 		<td align="center" bgcolor="#0070C0" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Description</b></span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`INF_VERSION`</b></span></p></td>
-		<td  bgcolor="#a6a6a6" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >1.25* - Version of the INF spec. </span></p></td>
+		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >1.25* - Version of the INF spec. </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`BASE_NAME`</b></span></p></td>
@@ -908,7 +908,7 @@ See EDK II INF  File Specification for more details and examples
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`FILE_GUID`</b></span></p></td>
-		<td  bgcolor="#a6a6a6" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.75em" >Create a GUID for your module </span></p></td>
+		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.75em" >Create a GUID for your module </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_UNI_FILE`</b></span></p></td>
@@ -916,7 +916,7 @@ See EDK II INF  File Specification for more details and examples
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`VERSION_STRING`</b></span></p></td>
-		<td  bgcolor="#a6a6a6" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.75em" > Version number</span></p></td>
+		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.75em" > Version number</span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`ENTRY_POINT`</b></span></p></td>
@@ -924,7 +924,7 @@ See EDK II INF  File Specification for more details and examples
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_TYPE`</b></span></p></td>
-		<td  bgcolor="#a6a6a6" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.75em" > UEFI_APPLICATION</span></p></td>
+		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.75em" > UEFI_APPLICATION</span></p></td>
 	</tr>
 </table>
 
