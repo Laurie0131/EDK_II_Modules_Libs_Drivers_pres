@@ -882,31 +882,6 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 
 Note:
 
----?image=/assets/images/slides/Slide73.JPG
-<!-- .slide: data-transition="none" -->
-@title[Driver vs. Application]
-<p align="right"><span class="gold" ><b>Driver Vs. Application</b></span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide74.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Driver vs. Application 02]
-<p align="right"><span class="gold" ><b>Driver Vs. Application</b></span></p>
-
-Note:
-
-
-+++?image=/assets/images/slides/Slide75.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Driver vs. Application 03]
-<p align="right"><span class="gold" ><b>Driver Vs. Application</b></span></p>
-
-Note:
-
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Writing EDK II Applications Section]
@@ -1159,7 +1134,7 @@ Note:
 ---
 <!-- .slide: data-transition="none" -->
 @title[Sample Application "C" File]
-<p align="right"><span class="gold" >Sample Application "C" File</span></p>
+<p align="right"><span class="gold" ><b>Sample Application "C" File</b></span></p>
 <br>
 <br>
 ```C
@@ -1187,7 +1162,7 @@ This sample application does not do anything, it is just a reference.
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Sample Application "C" File]
-<p align="right"><span class="gold" >Sample Application "C" File</span></p>
+<p align="right"><span class="gold" ><b>Sample Application "C" File</b></span></p>
 <br>
 <br>
 ```C
@@ -1218,7 +1193,7 @@ This sample application does not do anything, it is just a reference.
 
 ---?image=/assets/images/slides/Slide91.JPG
 @title[UEFI Application Vs. EADK Application]
-<p align="right"><span class="gold" >UEFI Application Vs. EADK Application</span></p>
+<p align="right"><span class="gold" ><b>UEFI Application Vs. EADK Application</b></span></p>
 <br>
 <br>
 <div class="left1">
@@ -1242,12 +1217,13 @@ Note:
 ---
 <!-- .slide: data-transition="none" -->
 @title[Sample INF file using EDK II EADK ]
-<p align="right"><span class="gold" >Sample INF file using EDK II EADK</span></p>
+<p align="right"><span class="gold" ><b>Sample INF file using EDK II EADK</b></span></p>
 
 ```XML
 [Defines]
   INF_VERSION                    = 0x00010005
   BASE_NAME                      = MyApplication
+  MODULE_UNI_FILE                = MyFile.uni
   FILE_GUID                      = 215cdcfb-1cfc-47e0-9c09-47048c21d20d
   MODULE_TYPE                    = UEFI_APPLICATION
   VERSION_STRING                 = 1.0
@@ -1290,12 +1266,13 @@ Note:
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Sample INF file using EDK II EADK ]
-<p align="right"><span class="gold" >Sample INF file using EDK II EADK</span></p>
+<p align="right"><span class="gold" ><b>Sample INF file using EDK II EADK</b></span></p>
 
 ```XML
 [Defines]
   INF_VERSION                    = 0x00010005
   BASE_NAME                      = MyApplication
+  MODULE_UNI_FILE                = MyFile.uni
   FILE_GUID                      = 215cdcfb-1cfc-47e0-9c09-47048c21d20d
   MODULE_TYPE                    = UEFI_APPLICATION
   VERSION_STRING                 = 1.0
@@ -1319,9 +1296,9 @@ Note:
 
 [Protocols]
 ```
-@[7]( Entry point is a library in the shell to get parameters from the command line)
-@[12-14]( Packages included for standard "C" lib and Shell Lib)
-@[17-19]( Library classes for ANSI "C" and Standard IO "stdio.h")
+@[8]( Entry point is a library in the shell to get parameters from the command line)
+@[13-15]( Packages included for standard "C" lib and Shell Lib)
+@[18-21]( Library classes for ANSI "C" and Standard IO "stdio.h")
 
 Note:
 
@@ -1338,7 +1315,7 @@ Note:
 
 ---
 @title[Sample "C" file using EDK II EADK ]
-<p align="right"><span class="gold" >Sample "C" file using EDK II EADK</span></p>
+<p align="right"><span class="gold" ><b>Sample "C" file using EDK II EADK</b></span></p>
 <br>
 <span style="font-size:0.9em" >This sample looks a lot like actual “C” source.</span>
 
@@ -1365,7 +1342,7 @@ simple "C" looks like a normal "C" file
 ---?image=/assets/images/slides/Slide96.JPG
 <!-- .slide: data-transition="none" -->
 @title[Driver File Placement]
-<p align="right"><span class="gold" >Driver File Placement</span></p>
+<p align="right"><span class="gold" ><b>Driver File Placement</b></span></p>
 
 Note:
 Same as slide
