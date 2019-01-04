@@ -846,6 +846,42 @@ Note:
 
 Same as slide
 
+---?image=/assets/images/slides/Slide35_1.JPG
+@title[Module .INF File]
+<p align="right"><span class="gold" ><b>Module .INF File</b></span></p><br>
+<span style="font-size:01.1em" ><font color="yellow">Syntax</font></span>
+<div class="left1">
+<br>
+<br>
+<br>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Application/VariableInfo/VariableInfo.inf">INF text file example </a></span>
+</div>
+<div class="right1">
+   <p style="line-height:60%" ><span style="font-size:0.75em; font-family: Consolas">  INFfile ::= [&lt;Header&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &lt;Defines&gt;<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;BuildOptions&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Sources&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Binaries&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Guids&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Protocols&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Ppis&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Packages&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;LibraryClasses&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Pcds&gt;]<br>
+   &nbsp; &nbsp;&nbsp; &nbsp; [&lt;UserExtensions&gt;]<br>
+   &nbsp; [&lt;Depex&gt;]<br>
+   </span></p>
+</div>
+
+
+Note:
+
+Update to define all Sources (.c, .h, .uni) , libraries, Packages, Guids,  PCDs be used by the Module
+
+See EDK II INF  File Specification for more details and examples
+
+1 Depex only used with specific Module types
+
 
 
 ---?image=/assets/images/slides/Slide83.JPG
