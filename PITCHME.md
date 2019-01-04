@@ -991,7 +991,7 @@ See EDK II INF  File Specification for more details and examples
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_TYPE`</b></span></p></td>
-		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > UEFI_APPLICATION</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > UEFI_APPLICATION</span></p></td>
 	</tr>
 </table>
 
