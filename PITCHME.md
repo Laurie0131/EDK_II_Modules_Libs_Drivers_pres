@@ -857,7 +857,7 @@ Same as slide
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Application/VariableInfo/VariableInfo.inf">INF text file example </a></span>
 </div>
 <div class="right1">
-   <p style="line-height:60%" ><span style="font-size:0.65em; font-family: Consolas">  INFfile ::= [&lt;Header&gt;]<br>
+   <p style="line-height:60%" ><span style="font-size:0.65em; font-family: Consolas">&nbsp; &nbsp;  INFfile ::= [&lt;Header&gt;]<br>
    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &lt;Defines&gt;<br>
    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;BuildOptions&gt;]<br>
    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Sources&gt;]<br>
@@ -868,8 +868,8 @@ Same as slide
    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Packages&gt;]<br>
    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;LibraryClasses&gt;]<br>
    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Pcds&gt;]<br>
-   &nbsp; &nbsp;&nbsp; &nbsp; [&lt;UserExtensions&gt;]<br>
-   &nbsp; [&lt;Depex&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;UserExtensions&gt;]<br>
+   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Depex&gt;]<br>
    </span></p>
 </div>
 
