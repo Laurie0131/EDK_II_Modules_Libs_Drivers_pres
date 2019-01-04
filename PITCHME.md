@@ -486,10 +486,10 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @snapend
 
 @snap[west span-50 fragment]
-<p style="line-height:90%" align="right"><span style="font-size:0.80em; font-family: Courier New; color: #FFC000; font-weight: bold;" >
+<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; color: #FFC000; font-weight: bold;" >
 CpuLib&nbsp;&nbsp;UefiUsbLib<br>
 MemoryAllocationLib @color[yellow](UefiDriverEntryPoint) <br>
-UefiRuntimeLib &nbsp;PciLib &nbsp;&nbsp;@color[#87E2A9]BaseMemoryLib</span></p>
+UefiRuntimeLib &nbsp;PciLib &nbsp;&nbsp;@color[#87E2A9](BaseMemoryLib)</span></p>
 @snapend
 
 
