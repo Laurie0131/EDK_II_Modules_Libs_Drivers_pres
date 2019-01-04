@@ -912,7 +912,7 @@ See EDK II INF  File Specification for more details and examples
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_UNI_FILE`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:040%"><span style="font-size:0.75em" >Meta-data - localization for Description & Abstract </span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:050%"><span style="font-size:0.75em" >Meta-data - localization for Description & Abstract </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`VERSION_STRING`</b></span></p></td>
