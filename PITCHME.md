@@ -787,8 +787,27 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 Note:
 
 Same as the UEFI application except will not return to the UEFI Loader and the OS will take over
+---
+@title[Driver vs. Application]
+<p align="right"><span class="gold" ><b>Driver Vs. Application</b></span></p>
 
-
+<table id="recTable">
+	<tr>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b></b></span></p></td>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Driver</b></span></p></td>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Application</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Loaded by: </b></span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em color: black" >UEFI Loader </span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em color: black" >UEFI Loader </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Interface available: </b></span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em color: black" >All</span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em color: black" >All </span></p></td>
+	</tr>
+</table>
 
 ---?image=/assets/images/slides/Slide73.JPG
 <!-- .slide: data-transition="none" -->
