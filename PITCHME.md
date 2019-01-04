@@ -478,12 +478,12 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 <br>
 <br>
 <p style="line-height:90%" align="right"><span style="font-size:0.80em; font-family: Courier New; color: #00b0f0; font-weight: bold;" >
-@color[#87E2A9](BaseMemoryLib) 
+@color[yellow](UefiDriverEntryPoint)
 <br>UefiBootServicesTableLib&nbsp;&nbsp;
-<br> @color[yellow](DxeCoreEntryPoint)&nbsp;&nbsp;<br>@color[yellow](PeiCoreEntryPoint)&nbsp;&nbsp; 
-<br>DevicePathLib&nbsp;&nbsp;UefiScsiLib
+<br> @color[yellow](DxeCoreEntryPoint)&nbsp;&nbsp; 
+<br>DevicePathLib&nbsp;&nbsp;IoLib
 <br> &nbsp;&nbsp;PrintLib&nbsp;@color[yellow](PeimEntryPoint)
-<br>&nbsp;IoLib</span></p>
+<br>&nbsp;UefiScsiLib</span></p>
 @snapend
 
 @snap[north-west span-100 fragment]
@@ -492,7 +492,7 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 <p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; color: #FFC000; font-weight: bold;" ><br><br><br>
 CpuLib&nbsp;&nbsp;UefiUsbLib&nbsp;PciLib<br>
 @color[#87E2A9](MemoryAllocationLib)<br>
-&nbsp;@color[yellow](UefiDriverEntryPoint) <br>
+&nbsp;@color[yellow](PeiCoreEntryPoint)<br>
 &nbsp; &nbsp;UefiRuntimeLib &nbsp; &nbsp;&nbsp;@color[#87E2A9](BaseMemoryLib)</span></p>
 @snapend
 
