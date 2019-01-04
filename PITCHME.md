@@ -465,7 +465,7 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @title[Commonly Used Base Library Classes]
 <p align="right"><span class="gold" ><b>Commonly Used Base Library Classes</b></span></p>
 
-@snap[north-west span-50 fragment]
+@snap[north-west span-100 fragment]
 <br>
 <br>
 <p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" >BaseLib &nbsp;&nbsp;&nbsp;&nbsp;DebugLib <br>
@@ -474,7 +474,7 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @snapend
 
 
-@snap[north-east span-60 fragment]
+@snap[north-east span-100 fragment]
 <br>
 <br>
 <p style="line-height:90%" align="right"><span style="font-size:0.80em; font-family: Courier New; color: #00b0f0; font-weight: bold;" >
@@ -485,8 +485,10 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 <br> &nbsp;&nbsp;PrintLib&nbsp;&nbsp;&nbsp;@color[yellow](PeimEntryPoint)&nbsp;&nbsp;</span></p>
 @snapend
 
-@snap[west span-60 fragment]
-<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; color: #FFC000; font-weight: bold;" >
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; color: #FFC000; font-weight: bold;" ><br><br><br>
 CpuLib&nbsp;&nbsp;UefiUsbLib&nbsp;PciLib<br>
 @color[#87E2A9](MemoryAllocationLib)<br>
 &nbsp;@color[yellow](UefiDriverEntryPoint) <br>
