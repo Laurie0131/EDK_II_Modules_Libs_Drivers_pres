@@ -488,8 +488,9 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @snap[west span-60 fragment]
 <p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; color: #FFC000; font-weight: bold;" >
 CpuLib&nbsp;&nbsp;UefiUsbLib&nbsp;PciLib<br>
-@color[#87E2A9](MemoryAllocationLib)<br>&nbsp; @color[yellow](UefiDriverEntryPoint) <br>
-UefiRuntimeLib &nbsp; &nbsp;&nbsp;@color[#87E2A9](BaseMemoryLib)</span></p>
+@color[#87E2A9](MemoryAllocationLib)<br>
+&nbsp;@color[yellow](UefiDriverEntryPoint) <br>
+&nbsp; &nbsp;UefiRuntimeLib &nbsp; &nbsp;&nbsp;@color[#87E2A9](BaseMemoryLib)</span></p>
 @snapend
 
 
