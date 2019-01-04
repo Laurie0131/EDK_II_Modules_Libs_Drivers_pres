@@ -1353,7 +1353,12 @@ simple "C" looks like a normal "C" file
 
 @css[text-white fragment](@fa[certificate gp-bullet-gold]<span style="font-size:0.8em" >&nbsp;&nbsp;Typically, Driver modules reside within a package:</span> )
 
-@box[bg-grey-05 text-white rounded  my-box-pad fragment](<p style="line-height:60%" align="left"><span style="font-size:0.7em; font-family: Consolas" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /MyWorkSpace      &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    /MyPkg          &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       /Include &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        /MyXyzDriver     &nbsp;&nbsp;<br>&nbsp;</span></p>)
+@box[bg-grey-05 text-white rounded  my-box-pad fragment](<p style="line-height:60%" align="left"><span style="font-size:0.7em; font-family: Consolas" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /MyWorkSpace      &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    /MyPkg          &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /Include &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /MyDriver     &nbsp;&nbsp;<br>&nbsp;</span></p>)
+
+
+@snap[south-east span-55 fragment]
+![MyDriverdir](/assets/images/MyDriverDir.png)
+<br>
 
 Note:
 Same as slide
