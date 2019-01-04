@@ -1339,6 +1339,26 @@ Note:
 simple "C" looks like a normal "C" file  
   
 
+
+
+---
+@title[Driver File Placement]
+<p align="right"><span class="gold" ><b>Driver File Placement</b></span></p>
+
+@css[text-white fragment](@fa[certificate gp-bullet-ltgreen]<span style="font-size:0.8em" >&nbsp;&nbsp;Driver source code can go anywhere in the EDK II <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;workspace </span> )
+
+@css[text-white fragment](@fa[certificate gp-bullet-cyan]<span style="font-size:0.8em" >&nbsp;&nbsp;All code and include files go under a single directory containing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; an INF</span> )
+
+@css[text-white fragment](@fa[certificate gp-bullet-yellow]<span style="font-size:0.8em" >&nbsp;&nbsp;Good example of UEFI Drivers can be found here:</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:0.7em; background-color: #080808">&nbsp;&nbsp;`  /MdeModulePkg/Bus/ScsiDiskDxe   `&nbsp;&nbsp;</span>)
+
+@css[text-white fragment](@fa[certificate gp-bullet-gold]<span style="font-size:0.8em" >&nbsp;&nbsp;Typically, Driver modules reside within a package:</span> )
+
+@box[bg-grey-05 text-white rounded  my-box-pad fragment](<p style="line-height:60%" align="left"><span style="font-size:0.7em; font-family: Consolas" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /MyWorkSpace      &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    /MyPkg          &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       /Include &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        /MyXyzDriver     &nbsp;&nbsp;<br>&nbsp;</span></p>)
+
+Note:
+Same as slide
+
+
 ---?image=/assets/images/slides/Slide96.JPG
 <!-- .slide: data-transition="none" -->
 @title[Driver File Placement]
