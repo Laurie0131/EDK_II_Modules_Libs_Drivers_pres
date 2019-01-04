@@ -857,7 +857,7 @@ Same as slide
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Application/VariableInfo/VariableInfo.inf">INF text file example </a></span>
 </div>
 <div class="right1">
-   <p style="line-height:60%" ><span style="font-size:0.75em; font-family: Consolas">  INFfile ::= [&lt;Header&gt;]<br>
+   <p style="line-height:60%" ><span style="font-size:0.7em; font-family: Consolas">  INFfile ::= [&lt;Header&gt;]<br>
    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &lt;Defines&gt;<br>
    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;BuildOptions&gt;]<br>
    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; [&lt;Sources&gt;]<br>
