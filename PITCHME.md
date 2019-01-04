@@ -508,58 +508,7 @@ DxePcdLib&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00b0f0](UefiRuntimeServices
 @snapend
 
 Note:
-
-Eye chart of many - MANY Many Libraries in the EDK II code
-
-
----?image=/assets/images/slides/Slide42.JPG
-<!-- .slide: data-transition="none" -->
-@title[Commonly Used Base Library Classes]
-<p align="right"><span class="gold" >Commonly Used Base Library Classes</span></p>
-
-Note:
-
-Eye chart of many - MANY Many Libraries in the EDK II code
-
-+++?image=/assets/images/slides/Slide43.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Commonly Used Base Library Classes 02]
-<p align="right"><span class="gold" >Commonly Used Base Library Classes</span></p>
-
-Note:
-
-Eye chart of many - MANY Many Libraries in the EDK II code
-
-+++?image=/assets/images/slides/Slide44.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Commonly Used Base Library Classes 03]
-<p align="right"><span class="gold" >Commonly Used Base Library Classes</span></p>
-
-Note:
-
-Eye chart of many - MANY Many Libraries in the EDK II code
-
-+++?image=/assets/images/slides/Slide45.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Commonly Used Base Library Classes 04]
-<p align="right"><span class="gold" >Commonly Used Base Library Classes</span></p>
-
-Note:
-
-Eye chart of many - MANY Many Libraries in the EDK II code
-
-+++?image=/assets/images/slides/Slide46.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Commonly Used Base Library Classes 05]
-<p align="right"><span class="gold" >Commonly Used Base Library Classes</span></p>
-
-Note:
-
-Eye chart of many - MANY Many Libraries in the EDK II code
+Key point is that this soon becomes an Eye chart of many - MANY Many Libraries in the EDK II code
 
 ---?image=/assets/images/slides/Slide48.JPG
 @title[MdePkg Library Doc. Location ]
