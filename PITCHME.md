@@ -803,33 +803,33 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Loaded by: </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Interface available: </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All</span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Consume protocols? </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES</span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Produce protocols? </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #d9d9d9" >YES</span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #d9d9d9" >NO </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #F2f2f2" >YES</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #F2f2f2" >NO </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Typically Driven by? </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #d9d9d9" >System</span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #d9d9d9" >User </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #F2f2f2" >System</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #F2f2f2" >User </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Typically use? </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #d9d9d9" >Support Hardware</span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #d9d9d9" >Any </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #F2f2f2" >Support Hardware</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: #F2f2f2" >Any </span></p></td>
 	</tr>
 </table>
 
@@ -850,18 +850,18 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Loaded by: </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Interface available: </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All</span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >All </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Consume protocols? </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES</span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >YES </span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Produce protocols? </b></span></p></td>
