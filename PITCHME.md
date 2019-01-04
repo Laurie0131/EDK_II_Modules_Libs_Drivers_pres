@@ -967,31 +967,31 @@ See EDK II INF  File Specification for more details and examples
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`INF_VERSION`</b></span></p></td>
-		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em" >1.25* - Version of the INF spec. </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >1.25* - Version of the INF spec. </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`BASE_NAME`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em" >What’s the name of the application </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >What’s the name of the application </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`FILE_GUID`</b></span></p></td>
-		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em" >Create a GUID for your module </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Create a GUID for your module </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_UNI_FILE`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em" >Meta-data - localization for Description, Abstract</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Meta-data - localization for Description, Abstract</span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`VERSION_STRING`</b></span></p></td>
-		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em" > Version number</span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > Version number</span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`ENTRY_POINT`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em" > Name of the entry function to call </span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > Name of the entry function to call </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_TYPE`</b></span></p></td>
-		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em" > UEFI_APPLICATION</span></p></td>
+		<td  bgcolor="#262626" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > UEFI_APPLICATION</span></p></td>
 	</tr>
 </table>
 
