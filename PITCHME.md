@@ -833,6 +833,22 @@ Note:
 
 @css[text-white fragment](@fa[certificate gp-bullet-yellow]<span style="font-size:0.8em" >&nbsp;&nbsp;EDK  II Sample Applications can be found here:</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:0.7em; background-color: #080808">&nbsp;&nbsp;`  /MdeModulePkg/Application   `&nbsp;&nbsp;</span>)
 
+@css[text-white fragment](@fa[certificate gp-bullet-gold]<span style="font-size:0.8em" >&nbsp;&nbsp;Typically, modules reside within a package:</span> )
+
+@box[bg-grey-05 text-white rounded  my-box-pad fragment](<p style="line-height:80%" align="left"><span style="font-size:0.7em; font-family: Courier New; color: white; font-weight: bold; background-color: #080808">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /MyWorkSpace      &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    /MyPkg          &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       /Application &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         /MyApp     &nbsp;&nbsp;<br></span></p>)
+
+Note:
+Same as slide
+---
+@title[Application Files Placement]
+<p align="right"><span class="gold" ><b>Application Files Placement</b></span></p>
+
+@css[text-white fragment](@fa[certificate gp-bullet-ltgreen]<span style="font-size:0.8em" >&nbsp;&nbsp;Application source code can go anywhere in the EDK II <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;workspace </span> )
+
+@css[text-white fragment](@fa[certificate gp-bullet-cyan]<span style="font-size:0.8em" >&nbsp;&nbsp;All code and include files go under a single directory containing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; an INF</span> )
+
+@css[text-white fragment](@fa[certificate gp-bullet-yellow]<span style="font-size:0.8em" >&nbsp;&nbsp;EDK  II Sample Applications can be found here:</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:0.7em; background-color: #080808">&nbsp;&nbsp;`  /MdeModulePkg/Application   `&nbsp;&nbsp;</span>)
+
 @css[text-white fragment](@fa[certificate gp-bullet-gold]<span style="font-size:0.8em" >&nbsp;&nbsp;Typically, modules reside within a package:</span> <br><span style="font-size:0.7em; font-family: Courier New; color: white; font-weight: bold; background-color: #080808">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /MyWorkSpace      &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    /MyPkg          &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       /Application &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         /MyApp     &nbsp;&nbsp;<br></span>)
 
 Note:
