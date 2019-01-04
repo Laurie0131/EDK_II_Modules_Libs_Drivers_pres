@@ -848,46 +848,6 @@ Same as slide
 
 
 
----?image=/assets/images/slides/Slide78.JPG
-<!-- .slide: data-transition="none" -->
-@title[Application Files Placement]
-<p align="right"><span class="gold" ><b>Application Files Placement</b></span></p>
-
-Note:
-Same as slide
-
-
-
-+++?image=/assets/images/slides/Slide79.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Application Files Placement 02]
-<p align="right"><span class="gold" >Application Files Placement</span></p>
-
-Note:
-Same as slide
-
-
-+++?image=/assets/images/slides/Slide80.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Application Files Placement 03]
-<p align="right"><span class="gold" >Application Files Placement</span></p>
-
-Note:
-Same as slide
-
-
-+++?image=/assets/images/slides/Slide81.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Application Files Placement 04]
-<p align="right"><span class="gold" >Application Files Placement</span></p>
-
-Note:
-Same as slide
-
-
 ---?image=/assets/images/slides/Slide83.JPG
 @title[Module .INF File]
 <p align="right"><span class="gold" >Module .INF File</span></p><br>
