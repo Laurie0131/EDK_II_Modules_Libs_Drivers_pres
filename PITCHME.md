@@ -799,8 +799,8 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Loaded by: </b></span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em color: black" >UEFI Loader </span></p></td>
-		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em color: black" >UEFI Loader </span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
+		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >UEFI Loader </span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>Interface available: </b></span></p></td>
@@ -827,7 +827,7 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Support Hardware</span></p></td>
 		<td  bgcolor="#d9d9d9" height=".025"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Any </span></p></td>
 	</tr>
-/table>
+</table>
 
 ---?image=/assets/images/slides/Slide73.JPG
 <!-- .slide: data-transition="none" -->
