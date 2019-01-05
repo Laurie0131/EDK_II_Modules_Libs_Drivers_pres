@@ -1357,6 +1357,7 @@ simple "C" looks like a normal "C" file
 
 
 @snap[south-east span-55 fragment]
+<br>
 ![MyDriverdir](/assets/images/MyDriverDir.png)
 <br>
 
