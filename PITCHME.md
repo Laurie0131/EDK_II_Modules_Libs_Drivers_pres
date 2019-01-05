@@ -1448,8 +1448,12 @@ Note:
 <br>
 @css[text-white fragment](<p style="line-height:80%" ><span style="font-size:0.9em" >UEFI Driver Module requirements:<br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;Driver Binding Protocol<br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;Component Name2 Protocol &lpar;recommended&rpar;</span> </p>)
 
+<br>
+@css[text-white fragment](<span style="font-size:0.9em" >DXE/PEIM/other Driver requirements</span> )
+
 
 Note:
+same as slide
 
 ---?image=/assets/images/slides/Slide103.JPG
 <!-- .slide: data-transition="none" -->
