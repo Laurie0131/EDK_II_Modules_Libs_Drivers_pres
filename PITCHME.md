@@ -1438,6 +1438,7 @@ Note:
 
 @css[text-white fragment](<span style="font-size:0.9em" >Applications can be converted to a driver</span> )
 <br>
+<br>
 @css[text-white fragment](<span style="font-size:0.9em" >@color[yellow](But) . . . It remains in memory after it runs</span> )
 @snap[north-east span-15 fragment]
 <br>
