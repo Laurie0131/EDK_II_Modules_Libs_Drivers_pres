@@ -1437,14 +1437,15 @@ Note:
 <p align="right"><span class="gold" ><b>Changes for a UEFI Driver Module</b></span></p>
 
 @css[text-white fragment](<span style="font-size:0.9em" >Applications can be converted to a driver</span> )
-
+<br>
 @css[text-white fragment](<span style="font-size:0.9em" >@color[yellow](But) . . . It remains in memory after it runs</span> )
 @snap[north-east span-15 fragment]
 <br>
 <br>
 ![uefi_logo](/assets/images/uefi_logo.png)
 @snapend
-@css[text-white fragment](<p style="line-height:80%" ><span style="font-size:0.9em" >UEFI Driver Module requirements:<br>&nbsp;&nbsp;-&nbsp;Driver Binding Protocol<br>&nbsp;&nbsp;-&nbsp;Component Name2 Protocol &lpar;recommended&rpar;</span> </p>)
+<br>
+@css[text-white fragment](<p style="line-height:80%" ><span style="font-size:0.9em" >UEFI Driver Module requirements:<br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;Driver Binding Protocol<br>&nbsp;&nbsp;&bull;&nbsp;&nbsp;Component Name2 Protocol &lpar;recommended&rpar;</span> </p>)
 
 
 Note:
