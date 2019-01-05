@@ -1439,7 +1439,8 @@ Note:
 @css[text-white fragment](<span style="font-size:0.8em" >Applications can be converted to a driver</span> )
 
 @css[text-white fragment](<span style="font-size:0.8em" >@color[yellow](But) . . . It remains in memory after it runs</span> )
-@snap[north-east span-10 fragment]
+@snap[north-east span-20 fragment]
+<br>
 <br>
 <br>
 ![uefi_logo](/assets/images/uefi_logo.png)
