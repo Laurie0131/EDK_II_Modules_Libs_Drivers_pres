@@ -1430,24 +1430,28 @@ Note:
 - MODULE_TYPE UEFI_DRIVER, DXE_DRIVER, PEIM, or others
 
 
----?image=/assets/images/slides/Slide101.JPG
-@title[Driver INF Files: DEFINES]
-<p align="right"><span class="gold" >Driver INF Files: [DEFINES]</span></p>
+
+
+---
+@title[Changes for a UEFI Driver Module]
+<p align="right"><span class="gold" ><b>Changes for a UEFI Driver Module</b></span></p>
+
+@css[text-white fragment](<span style="font-size:0.8em" >Applications can be converted to a driver</span> )
+@css[text-white fragment](<span style="font-size:0.8em" >@color[yellow](But) . . . It remains in memory after it runs</span> )
+@snap[north-east span-30 fragment]
+<br>
+<br>
+![uefi_logo](/assets/images/uefi_logo.png)
+@snapend
+@css[text-white fragment](<span style="font-size:0.8em" >UEFI Driver Module requirements:<br>&nbsp;&nbsp;-&nbsp;Driver Binding Protocol<br>&nbsp;&nbsp;-&nbsp;Component Name2 Protocol &lpar;recommended&rpar;</span> )
+
+
+@snap[south-east span-30]
+![Changes_sign](/assets/images/changes_sign.png)
+@snapend
 
 
 Note:
-- There are other optional fields
-- Check the Extended INF Specification
-- Notice the differences between Application and driver is only the MODULE_TYPE - so simply change the module type and it becomes a driver.
-
-#### defines
-- INF_VERSION 1.25* - Version of the INF spec.
-- BASE_NAME What’s the name of the DRIVER
-- FILE_GUID Create a GUID for your module
-- MODULE_UNI_FILE Meta-data - localization for Description & Abstract
-- VERSION_STRING Version number
-- ENTRY_POINT Name of the function to call
-- MODULE_TYPE UEFI_DRIVER, DXE_DRIVER, PEIM, or others
 
 ---?image=/assets/images/slides/Slide103.JPG
 <!-- .slide: data-transition="none" -->
