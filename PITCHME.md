@@ -1365,43 +1365,70 @@ Note:
 Same as slide
 
 
----?image=/assets/images/slides/Slide96.JPG
-<!-- .slide: data-transition="none" -->
-@title[Driver File Placement]
-<p align="right"><span class="gold" ><b>Driver File Placement</b></span></p>
+---
+<p align="right"><span class="gold" ><b>Driver INF Files: `[DEFINES]`</b></span></p>
+
+
+
+
+
+<table id="recTable">
+	<tr>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Field</b></span></p></td>
+		<td align="center" bgcolor="#0070C0" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Description</b></span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`INF_VERSION`</b></span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >1.25* - Version of the INF spec. </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`BASE_NAME`</b></span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >What’s the name of the driver </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`FILE_GUID`</b></span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Create a GUID for your module </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_UNI_FILE`</b></span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Meta-data - localization for Description, Abstract</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`VERSION_STRING`</b></span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > Version number</span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`ENTRY_POINT`</b></span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > Name of the entry function to call </span></p></td>
+	</tr>
+	<tr>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_TYPE`</b></span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > `UEFI_DRIVER, DXE_DRIVER, PEIM,` etc...</span></p></td>
+	</tr>
+</table>
+
+
+
+@snap[south-west span-100]
+<span style="font-size:0.5em" ><font color="yellow">*EDK II Specifications: </font> <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications">https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications </a></span>
+@snapend
+
+
 
 Note:
-Same as slide
+- There are other optional fields
+- Check the Extended INF Specification
+- Notice the differences between Application and driver is only the MODULE_TYPE - so simply change the module type and it becomes a driver.
 
+#### defines
+- INF_VERSION 1.25* - Version of the INF spec.
+- BASE_NAME What’s the name of the DRIVER
+- FILE_GUID Create a GUID for your module
+- MODULE_UNI_FILE Meta-data - localization for Description & Abstract
+- VERSION_STRING Version number
+- ENTRY_POINT Name of the function to call
+- MODULE_TYPE UEFI_DRIVER, DXE_DRIVER, PEIM, or others
 
-+++?image=/assets/images/slides/Slide97.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Driver File Placement 02]
-<p align="right"><span class="gold" >Driver File Placement</span></p>
-
-Note:
-Same as slide
-
-
-+++?image=/assets/images/slides/Slide98.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Driver File Placement 03]
-<p align="right"><span class="gold" >Driver File Placement</span></p>
-
-Note:
-Same as slide
-
-
-+++?image=/assets/images/slides/Slide99.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Driver File Placement 04]
-<p align="right"><span class="gold" >Driver File Placement</span></p>
-
-Note:
-Same as slide
 
 ---?image=/assets/images/slides/Slide101.JPG
 @title[Driver INF Files: DEFINES]
