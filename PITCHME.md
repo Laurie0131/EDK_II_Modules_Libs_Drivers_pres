@@ -1455,42 +1455,6 @@ Note:
 Note:
 same as slide
 
----?image=/assets/images/slides/Slide103.JPG
-<!-- .slide: data-transition="none" -->
-@title[Changes for a UEFI Driver Module]
-<p align="right"><span class="gold" >Changes for a UEFI Driver Module</span></p>
-
-Note:
-same as slide
-
-+++?image=/assets/images/slides/Slide104.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Changes for a UEFI Driver Module 02]
-<p align="right"><span class="gold" >Changes for a UEFI Driver Module</span></p>
-
-Note:
-same as slide
-
-
-+++?image=/assets/images/slides/Slide105.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Changes for a UEFI Driver Module 03]
-<p align="right"><span class="gold" >Changes for a UEFI Driver Module</span></p>
-
-Note:
-same as slide
-+++?image=/assets/images/slides/Slide106.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Changes for a UEFI Driver Module 04]
-<p align="right"><span class="gold" >Changes for a UEFI Driver Module</span></p>
-
-Note:
-same as slide
- 
-
 
 ---
 <!-- .slide: data-transition="none" -->
