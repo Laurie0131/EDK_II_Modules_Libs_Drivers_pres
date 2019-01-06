@@ -1466,7 +1466,7 @@ i.e. a serial UEFI driver may require the Serial IO  protocol
 ---
 <!-- .slide: data-transition="none" -->
 @title[Sample INF Driver file]
-<p align="right"><span class="gold" >Sample Driver INF file</span></p>
+<p align="right"><span class="gold" ><b>Sample Driver INF file</b></span></p>
 
 ```XML
 [Defines]
@@ -1506,32 +1506,31 @@ Note:
 <p align="right"><span class="gold" ><b>INF Usage fields – DIST files</b> </span></p>
 @snap[north-east span-25]
 <br>
-<br>
-<span style="font-size:01.8em" >@color[yellow](<i><b>Optional</b></i>) </span>
+<span style="font-size:01.25em" >@color[yellow](<i><b>Optional</b></i>) </span>
 @snapend
 
 <b>UEFI Spec - Package Distribution<b>
 <div class="left1">
 <p style="line-height:80%"><span style="font-size:0.8em" >Usage field used by the Build tools for creating the .Dist file for binary modules</span></p>
-     <ul>
-        <li><span style="font-size:0.8em" >[GUID]</span></li>
-        <li><span style="font-size:0.8em" >[PCD]</span></li>
-        <li><span style="font-size:0.8em" >[PROTOCOL]</span></li>        
-		<li><span style="font-size:0.8em" >[PPIS]</span></li>
+     <ul style="line-height:0.6;">
+        <li><span style="font-size:0.7em" >[GUID]</span></li>
+        <li><span style="font-size:0.7em" >[PCD]</span></li>
+        <li><span style="font-size:0.7em" >[PROTOCOL]</span></li>        
+		<li><span style="font-size:0.7em" >[PPIS]</span></li>
      </ul>
-<p style="line-height:80%"><span style="font-size:0.6em" >1 Usage Block  - "&num;&num;" After the entry<br><i>n</i> - "&num;&num;" Precede the entry	</span></p>
+<p style="line-height:80%"><span style="font-size:0.6em" >1 Usage Block&nbsp;  - "&num;&num;" After the entry<br><i>n</i>Usage Blocks - "&num;&num;" Precede the entry	</span></p>
 </div>
 <div class="right1">
-<p style="line-height:80%"><span style="font-size:0.8em" > @color[yellow](<b>Usage Key Word</b>)</span></p>
-     <ul style="list-style-type:none" style="line-height:0.6;">
-        <li><span style="font-size:0.6em" >&num;&num; UNDEFINED</span></li>
-        <li><span style="font-size:0.6em" >&num;&num; CONSUMES</span></li>
-        <li><span style="font-size:0.6em" >&num;&num; SOMETIMES_CONSUMES</span></li>        
-		<li><span style="font-size:0.6em" >&num;&num; PRODUCES</span></li>
-		<li><span style="font-size:0.6em" >&num;&num; SOMETIMES_PRODUCES</span></li>
-		<li><span style="font-size:0.6em" >&num;&num; TO_START</span></li>
-		<li><span style="font-size:0.6em" >&num;&num; BY_START</span></li>
- 		<li><span style="font-size:0.6em" >&num;&num; NOTIFY</span></li>
+<p style="line-height:80%"><span style="font-size:0.8em" > @color[yellow](<b>&nbsp;Usage Key Word</b>)</span></p>
+     <ul style="list-style-type:none" style="line-height:0.4;">
+        <li><span style="font-size:0.5em" >&num;&num; UNDEFINED</span></li>
+        <li><span style="font-size:0.5em" >&num;&num; CONSUMES</span></li>
+        <li><span style="font-size:0.5em" >&num;&num; SOMETIMES_CONSUMES</span></li>        
+		<li><span style="font-size:0.5em" >&num;&num; PRODUCES</span></li>
+		<li><span style="font-size:0.5em" >&num;&num; SOMETIMES_PRODUCES</span></li>
+		<li><span style="font-size:0.5em" >&num;&num; TO_START</span></li>
+		<li><span style="font-size:0.5em" >&num;&num; BY_START</span></li>
+ 		<li><span style="font-size:0.5em" >&num;&num; NOTIFY</span></li>
     </ul>
 
 </div>
