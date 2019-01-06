@@ -1504,10 +1504,11 @@ Note:
 ---?image=/assets/images/slides/Slide49_1.JPG
 @title[INF Usage fields – DIST files ]
 <p align="right"><span class="gold" ><b>INF Usage fields – DIST files</b> </span></p>
-@snap[north-east span-25]
+@snap[north-east span-40]
 <br>
 <br>
-<span style="font-size:01.25em" >@color[yellow](<i><b>Optional</b></i>) </span>
+<br>
+<p align="left"><span style="font-size:01.25em" >@color[yellow](<i><b>Optional</b></i>) </span></p>
 @snapend
 
 <b>UEFI Spec - Package Distribution<b>
@@ -1522,6 +1523,8 @@ Note:
 <p style="line-height:80%"><span style="font-size:0.6em" >1 Usage Block&nbsp;  - "&num;&num;" After the entry<br><i>n</i>&nbsp;Usage Blocks - "&num;&num;" Precede the entry	</span></p>
 </div>
 <div class="right1">
+<br>
+<br>
 <p style="line-height:80%"><span style="font-size:0.7em" > @color[yellow](<b>&nbsp;&nbsp;Usage Key Word</b>)</span></p>
     <ul style="list-style-type:none; line-height:0.7;">
         <li><span style="font-size:0.45em" >&num;&num; UNDEFINED</span></li>
