@@ -1523,7 +1523,7 @@ Note:
 </div>
 <div class="right1">
 <p style="line-height:80%"><span style="font-size:0.7em" > @color[yellow](<b>&nbsp;&nbsp;Usage Key Word</b>)</span></p>
-    <ul style="list-style-type:none" style="line-height:0.7;">
+    <ul style="list-style-type:none; line-height:0.7;">
         <li><span style="font-size:0.45em" >&num;&num; UNDEFINED</span></li>
         <li><span style="font-size:0.45em" >&num;&num; CONSUMES</span></li>
         <li><span style="font-size:0.45em" >&num;&num; SOMETIMES_CONSUMES</span></li>
