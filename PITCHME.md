@@ -1453,8 +1453,15 @@ Note:
 
 
 Note:
-same as slide
 
+An Application can be converted to  UEFI Drier by simply changing the MODULE_TYPE to UEFI_DRIVER
+
+(But) . . . It remains in memory after it runs
+
+It is better to also add the UEFI Driver Binding Protocol and / or Component Name Protocol (others maybe needed for whatever the job is for the driver that is being created)
+
+Other requirements maybe on DXE and/or PEIM and/or other types of UEFI Drivers 
+i.e. a serial UEFI driver may require the Serial IO  protocol
 
 ---
 <!-- .slide: data-transition="none" -->
@@ -1493,8 +1500,62 @@ same as slide
 
 Note:
 
-
   
+---?image=/assets/images/slides/Slide49_1.JPG
+@title[INF Usage fields – DIST files ]
+<p align="right"><span class="gold" ><b>INF Usage fields – DIST files</b> </span></p>
+@snap[north-east span-25]
+<br>
+<br>
+<span style="font-size:01.8em" >@color[yellow](<i><b>Optional</b></i>) </span>
+@snapend
+
+<b>UEFI Spec - Package Distribution<b>
+<div class="left1">
+<p style="line-height:80%"><span style="font-size:0.8em" >Usage field used by the Build tools for creating the .Dist file for binary modules</span></p>
+     <ul>
+        <li><span style="font-size:0.8em" >[GUID]</span></li>
+        <li><span style="font-size:0.8em" >[PCD]</span></li>
+        <li><span style="font-size:0.8em" >[PROTOCOL]</span></li>        
+		<li><span style="font-size:0.8em" >[PPIS]</span></li>
+     </ul>
+<p style="line-height:80%"><span style="font-size:0.6em" >1 Usage Block  - "&num;&num;" After the entry<br><i>n</i> - "&num;&num;" Precede the entry	</span></p>
+</div>
+<div class="right1">
+<p style="line-height:80%"><span style="font-size:0.8em" > @color[yellow](<b>Usage Key Word</b>)</span></p>
+     <ul style="list-style-type:none" style="line-height:0.6;">
+        <li><span style="font-size:0.6em" >&num;&num; UNDEFINED</span></li>
+        <li><span style="font-size:0.6em" >&num;&num; CONSUMES</span></li>
+        <li><span style="font-size:0.6em" >&num;&num; SOMETIMES_CONSUMES</span></li>        
+		<li><span style="font-size:0.6em" >&num;&num; PRODUCES</span></li>
+		<li><span style="font-size:0.6em" >&num;&num; SOMETIMES_PRODUCES</span></li>
+		<li><span style="font-size:0.6em" >&num;&num; TO_START</span></li>
+		<li><span style="font-size:0.6em" >&num;&num; BY_START</span></li>
+ 		<li><span style="font-size:0.6em" >&num;&num; NOTIFY</span></li>
+    </ul>
+
+</div>
+
+
+Note:
+
+- CONSUMES
+  - This module does not install the protocol, but needs to locate a protocol. Not valid if the Notify attribute is true.
+- PRODUCES
+  - This module will install this protocol. Not valid if the Notify attribute is true.
+- SOMETIMES_CONSUMES
+  - This module does not install the protocol, but may need to locate a protocol under certain conditions, (such as if it is present.) If the Notify attribute is set, then the module will use the protocol, named by GUID, via a registry protocol notify mechanism.
+- SOMETIMES_PRODUCES
+  - This module will install this protocol under certain conditions. Not valid if the Notify attribute is true.
+- TO_START
+  - The protocol is consumed by a Driver Binding protocol Start function. Thus the protocol is used as part of the UEFI driver model. Not valid if the Notify attribute is true.
+- BY_START
+  - The protocol is produced by a Driver Binding protocol Start function. Thus the protocol is used as part of the UEFI driver model. Not valid if the Notify attribute is true.
+- NOTIFY
+  - This specifies whether this is a Protocol or ProtocolNotify. If set, then the module will use this protocol, named by GUID, via a registry protocol notify mechanism.
+- UNDEFINED
+  - Typically, this entry will be used when tools creating/installing UEFI Distribution Packages encounter a missing or misspelled usage. UNDEFINED is also valid when the Protocol is not used as a Protocol and the GUID value of the Protocol is used for something else.
+
 ---?image=/assets/images/slides/Slide109.JPG
 @title[INF Usage fields – DIST files ]
 <p align="right"><span class="gold" >INF Usage fields – DIST files </span></p>
