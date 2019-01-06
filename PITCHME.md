@@ -1511,7 +1511,7 @@ Note:
 <p align="left"><span style="font-size:01.25em" >@color[yellow](<i><b>Optional</b></i>) </span></p>
 @snapend
 
-<b>UEFI Spec - Package Distribution<b>
+<span style="font-size:01.25em" >@color[yellow](<i><b>Optional</b></i>) </span>&nbsp;&nbsp;&nbsp;<b>UEFI Spec - Package Distribution<b>
 <div class="left1">
 <p style="line-height:80%"><span style="font-size:0.8em" >Usage field used by the Build tools for creating the .Dist file for binary modules</span></p>
      <ul style="line-height:0.7;">
