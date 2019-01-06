@@ -1508,7 +1508,7 @@ Note:
 <span style="font-size:01.25em" >@color[yellow](<i><b>Optional</b></i>) </span>&nbsp;&nbsp;&nbsp;<b>UEFI Spec - Package Distribution<b>
 <div class="left1">
 <p style="line-height:80%"><span style="font-size:0.8em" >Usage field used by the Build tools for creating the .Dist file for binary modules</span></p>
-     <ul style="line-height:0.7;">
+     <ul style="list-style-type:none; line-height:0.7;">
         <li><span style="font-size:0.7em" >[GUID]</span></li>
         <li><span style="font-size:0.7em" >[PCD]</span></li>
         <li><span style="font-size:0.7em" >[PROTOCOL]</span></li>
@@ -1533,10 +1533,11 @@ Note:
 
 </div>
 @snap[south-east span-40]
+
+<p align="right"><span style="font-size:02.25em" >@color[yellow](&rbrace;) </span><span style="font-size:0.5em" >UEFI Protocol</span></p>
 <br>
 <br>
 <br>
-<p align="right"><span style="font-size:02.25em" >@color[yellow](<b>&rbrace;</b>) </span><span style="font-size:0.5em" >UEFI Protocol</span></p>
 @snapend
 
 Note:
