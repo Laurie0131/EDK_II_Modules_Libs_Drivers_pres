@@ -1506,31 +1506,32 @@ Note:
 <p align="right"><span class="gold" ><b>INF Usage fields – DIST files</b> </span></p>
 @snap[north-east span-25]
 <br>
+<br>
 <span style="font-size:01.25em" >@color[yellow](<i><b>Optional</b></i>) </span>
 @snapend
 
 <b>UEFI Spec - Package Distribution<b>
 <div class="left1">
 <p style="line-height:80%"><span style="font-size:0.8em" >Usage field used by the Build tools for creating the .Dist file for binary modules</span></p>
-     <ul style="line-height:0.6;">
+     <ul style="line-height:0.7;">
         <li><span style="font-size:0.7em" >[GUID]</span></li>
         <li><span style="font-size:0.7em" >[PCD]</span></li>
         <li><span style="font-size:0.7em" >[PROTOCOL]</span></li>        
 		<li><span style="font-size:0.7em" >[PPIS]</span></li>
      </ul>
-<p style="line-height:80%"><span style="font-size:0.6em" >1 Usage Block&nbsp;  - "&num;&num;" After the entry<br><i>n</i>Usage Blocks - "&num;&num;" Precede the entry	</span></p>
+<p style="line-height:80%"><span style="font-size:0.6em" >1 Usage Block&nbsp;  - "&num;&num;" After the entry<br><i>n</i>&nbsp;Usage Blocks - "&num;&num;" Precede the entry	</span></p>
 </div>
-<div class="right1">
-<p style="line-height:80%"><span style="font-size:0.8em" > @color[yellow](<b>&nbsp;Usage Key Word</b>)</span></p>
+<div class="right">
+<p style="line-height:80%"><span style="font-size:0.7em" > @color[yellow](<b>&nbsp;&nbsp;Usage Key Word</b>)</span></p>
      <ul style="list-style-type:none" style="line-height:0.4;">
-        <li><span style="font-size:0.5em" >&num;&num; UNDEFINED</span></li>
-        <li><span style="font-size:0.5em" >&num;&num; CONSUMES</span></li>
-        <li><span style="font-size:0.5em" >&num;&num; SOMETIMES_CONSUMES</span></li>        
-		<li><span style="font-size:0.5em" >&num;&num; PRODUCES</span></li>
-		<li><span style="font-size:0.5em" >&num;&num; SOMETIMES_PRODUCES</span></li>
-		<li><span style="font-size:0.5em" >&num;&num; TO_START</span></li>
-		<li><span style="font-size:0.5em" >&num;&num; BY_START</span></li>
- 		<li><span style="font-size:0.5em" >&num;&num; NOTIFY</span></li>
+        <li><span style="font-size:0.45em" >&num;&num; UNDEFINED</span></li>
+        <li><span style="font-size:0.45em" >&num;&num; CONSUMES</span></li>
+        <li><span style="font-size:0.45em" >&num;&num; SOMETIMES_CONSUMES</span></li>        
+		<li><span style="font-size:0.45em" >&num;&num; PRODUCES</span></li>
+		<li><span style="font-size:0.45em" >&num;&num; SOMETIMES_PRODUCES</span></li>
+		<li><span style="font-size:0.45em" >&num;&num; TO_START</span></li>
+		<li><span style="font-size:0.45em" >&num;&num; BY_START</span></li>
+ 		<li><span style="font-size:0.45em" >&num;&num; NOTIFY</span></li>
     </ul>
 
 </div>
