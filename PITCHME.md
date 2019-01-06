@@ -1504,12 +1504,6 @@ Note:
 ---?image=/assets/images/slides/Slide49_1.JPG
 @title[INF Usage fields – DIST files ]
 <p align="right"><span class="gold" ><b>INF Usage fields – DIST files</b> </span></p>
-@snap[north-east span-40]
-<br>
-<br>
-<br>
-<p align="left"><span style="font-size:01.25em" >@color[yellow](<i><b>Optional</b></i>) </span></p>
-@snapend
 
 <span style="font-size:01.25em" >@color[yellow](<i><b>Optional</b></i>) </span>&nbsp;&nbsp;&nbsp;<b>UEFI Spec - Package Distribution<b>
 <div class="left1">
@@ -1538,7 +1532,12 @@ Note:
     </ul>
 
 </div>
-
+@snap[south-east span-40]
+<br>
+<br>
+<br>
+<p align="right"><span style="font-size:02.25em" >@color[yellow](<b>&rbrace;</b>) </span><span style="font-size:0.5em" >UEFI Protocol</span></p>
+@snapend
 
 Note:
 
