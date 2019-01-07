@@ -1536,8 +1536,6 @@ Note:
 
 <p align="right"><span style="font-size:02.25em" >@color[yellow](&rbrace;) </span><span style="font-size:0.5em" >UEFI Protocol</span></p>
 <br>
-<br>
-<br>
 @snapend
 
 Note:
