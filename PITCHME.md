@@ -262,7 +262,7 @@ Example of the naming and number of files associated with the modules types
 @snapend
 
 @snap[south span-100 ]
-@box[bg-grey-50 text-white rounded fragment ](<span style="font-size:01.20em" ><b>Does not describe implementation of the interfaces</b></span>)
+@box[bg-purple-pp text-white rounded fragment ](<span style="font-size:01.20em" ><b>Does not describe implementation of the interfaces</b></span>)
 @snapend
 
 
