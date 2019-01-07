@@ -1514,7 +1514,7 @@ Note:
         <li><span style="font-size:0.7em" >[PROTOCOL]</span></li>
 		<li><span style="font-size:0.7em" >[PPIS]</span></li>
      </ul>
-<p style="line-height:80%"><span style="font-size:0.6em" >1 Usage Block&nbsp;  - "&num;&num;" After the entry<br><i>n</i>&nbsp;Usage Blocks - "&num;&num;" Precede the entry	</span></p>
+<p style="line-height:80%"><span style="font-size:0.6em" >1 Usage Block&nbsp;&nbsp;  - "&num;&num;" After the entry<br><i>n</i>&nbsp;Usage Blocks - "&num;&num;" Precede the entry	</span></p>
 </div>
 <div class="right1">
 <br>
@@ -1534,7 +1534,7 @@ Note:
 </div>
 @snap[south-east span-40]
 
-<p align="right"><span style="font-size:02.25em" >@color[yellow](&rbrace;) </span><span style="font-size:0.5em" >UEFI Protocol</span></p>
+<p align="right"><span style="font-size:02.25em" >@color[yellow](&rbrace;) </span><span style="font-size:0.5em" >UEFI Protocol&nbsp;&nbsp;&nbsp;<br></span></p>
 <br>
 @snapend
 
