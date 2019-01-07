@@ -1540,29 +1540,10 @@ Note:
 
 Note:
 
-- CONSUMES
-  - This module does not install the protocol, but needs to locate a protocol. Not valid if the Notify attribute is true.
-- PRODUCES
-  - This module will install this protocol. Not valid if the Notify attribute is true.
-- SOMETIMES_CONSUMES
-  - This module does not install the protocol, but may need to locate a protocol under certain conditions, (such as if it is present.) If the Notify attribute is set, then the module will use the protocol, named by GUID, via a registry protocol notify mechanism.
-- SOMETIMES_PRODUCES
-  - This module will install this protocol under certain conditions. Not valid if the Notify attribute is true.
-- TO_START
-  - The protocol is consumed by a Driver Binding protocol Start function. Thus the protocol is used as part of the UEFI driver model. Not valid if the Notify attribute is true.
-- BY_START
-  - The protocol is produced by a Driver Binding protocol Start function. Thus the protocol is used as part of the UEFI driver model. Not valid if the Notify attribute is true.
-- NOTIFY
-  - This specifies whether this is a Protocol or ProtocolNotify. If set, then the module will use this protocol, named by GUID, via a registry protocol notify mechanism.
-- UNDEFINED
-  - Typically, this entry will be used when tools creating/installing UEFI Distribution Packages encounter a missing or misspelled usage. UNDEFINED is also valid when the Protocol is not used as a Protocol and the GUID value of the Protocol is used for something else.
 
----?image=/assets/images/slides/Slide109.JPG
-@title[INF Usage fields – DIST files ]
-<p align="right"><span class="gold" >INF Usage fields – DIST files </span></p>
-
-
-Note:
+Usage field used by the Build tools for creating the .Dist file for binary modules 
+can be used in applications that parse the .DIST files.
+- Example:  PCDs of type "Patch-able"
 
 - CONSUMES
   - This module does not install the protocol, but needs to locate a protocol. Not valid if the Notify attribute is true.
@@ -1584,7 +1565,7 @@ Note:
 
 ---
 @title[INF File Usage Block examples]
-<p align="right"><span class="gold" >INF File Usage Block examples</span></p>
+<p align="right"><span class="gold" ><b>INF File Usage Block examples</b></span></p>
 <br>
 
 <pre>
@@ -1636,7 +1617,7 @@ Note:
 
 +++
 @title[INF File Usage Block examples]
-<p align="right"><span class="gold" >INF File Usage Block examples</span></p>
+<p align="right"><span class="gold" ><b>INF File Usage Block examples</b></span></p>
 <br>
 
 <pre>
@@ -1687,7 +1668,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide112_1.JPG
 @title[UEFI Driver Example - Disk I/O]
-<p align="right"><span class="gold" >UEFI Driver Example - Disk I/O</span></p>
+<p align="right"><span class="gold" ><b>UEFI Driver Example - Disk I/O</b></span></p>
 <br>
 @fa[github gp-bullet-black]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Disk/DiskIoDxe ">https://github.com/tianocore/edk2 /Disk/DiskIoDxe  </a></span><br>
 
@@ -1698,7 +1679,7 @@ Note:
 
 ---
 @title[UEFI Driver Example - Disk I/O]
-<p align="right"><span class="gold" >UEFI Driver Example - Disk I/O</span></p>
+<p align="right"><span class="gold" ><b>UEFI Driver Example - Disk I/O</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Disk/DiskIoDxe ">https://github.com/tianocore/edk2 /Disk/DiskIoDxe  </a>- entry point</span><br>
 <div class="left2">
 <span style="font-size:0.8em" ><font color="cyan">"C" file</font></span>
@@ -1745,7 +1726,7 @@ Note:
 
 ---
 @title[UEFI Driver Example - Disk I/O 02]
-<p align="right"><span class="gold" >UEFI Driver Example - Disk I/O</span></p>
+<p align="right"><span class="gold" ><b>UEFI Driver Example - Disk I/O</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Disk/DiskIoDxe ">https://github.com/tianocore/edk2 /Disk/DiskIoDxe  </a>- Supported </span><br>
 
 <div class="left2">
@@ -1791,7 +1772,7 @@ Using the global gEfiBlockIoProtocolGuid protocol to determine if this device co
 
 ---
 @title[UEFI Driver Example - Disk I/O 03]
-<p align="right"><span class="gold" >UEFI Driver Example - Disk I/O</span></p>
+<p align="right"><span class="gold" ><b>UEFI Driver Example - Disk I/O</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Disk/DiskIoDxe ">https://github.com/tianocore/edk2 /Disk/DiskIoDxe  </a>- Start</span><br>
 
 <div class="left2">
@@ -1839,7 +1820,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide117_1.JPG
 @title[DXE Driver Example - PlatformInfoDxe]
-<p align="right"><span class="gold" >DXE Driver Example - PlatformInfoDxe</span></p>
+<p align="right"><span class="gold" ><b>DXE Driver Example - PlatformInfoDxe</b></span></p>
 <br>
 @fa[github gp-bullet-black]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017/Vlv2TbltDevicePkg/PlatformInfoDxe">https://github.com/tianocore/edk2-platforms/ PlatformInfoDxe</a></span><br>
 
@@ -1852,7 +1833,7 @@ Note:
 
 ---
 @title[DXE Example .INF File - PlatformInfoDxe]
-<p align="right"><span class="gold" >DXE Driver Example - PlatformInfoDxe</span></p>
+<p align="right"><span class="gold" ><b>DXE Driver Example - PlatformInfoDxe</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017/Vlv2TbltDevicePkg/PlatformInfoDxe">https://github.com/tianocore/edk2-platforms/ PlatformInfoDxe</a></span><br>
 <span style="font-size:0.6em"  >Notice the MODULE TYPE, C function Entry point and the [Depex] differences in the INF file </span>
 <div class="left1">
@@ -1903,7 +1884,7 @@ Depex section is part of the Dxe driver INF file
 
 ---?image=/assets/images/slides/Slide121_1.JPG
 @title[PEI Driver (PEIM) Example - CpuIoPei]
-<p align="right"><span class="gold" >PEI Driver (PEIM) Example - CpuIoPei</span></p>
+<p align="right"><span class="gold" ><b>PEI Driver (PEIM) Example - CpuIoPei</b></span></p>
 <br>
 @fa[github gp-bullet-black]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/UefiCpuPkg/CpuIoPei">https://github.com/tianocore/edk2/ UefiCpuPkg/CpuIoPei  </a> </span>
 
@@ -1915,7 +1896,7 @@ Note:
 
 ---
 @title[PEI Driver (PEIM) Example - CpuIoPei]
-<p align="right"><span class="gold" >PEI Driver (PEIM) Example - CpuIoPei</span></p>
+<p align="right"><span class="gold" ><b>PEI Driver (PEIM) Example - CpuIoPei</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/UefiCpuPkg/CpuIoPei">https://github.com/tianocore/edk2/ UefiCpuPkg/CpuIoPei  </a> </span>
 <div class="left1">
 <span style="font-size:0.8em" ><font color="cyan">"C" file</font></span>
