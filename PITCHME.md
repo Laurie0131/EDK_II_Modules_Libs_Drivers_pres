@@ -1534,7 +1534,7 @@ Note:
 </div>
 @snap[south-east span-40]
 
-<p align="right" style="line-height:20%"><span style="font-size:02.25em" >@color[yellow](&rbrace;) </span><span style="font-size:0.5em" >UEFI Protocol&nbsp;&nbsp;<br><br><br><br><br>&nbsp;</span></p>
+<p align="right" style="line-height:20%"><span style="font-size:02.25em" >@color[yellow](&rbrace;) </span><span style="font-size:0.5em" >UEFI Protocol&nbsp;&nbsp;<br><br><br><br><br><br><br>&nbsp;</span></p>
 <br>
 @snapend
 
