@@ -269,7 +269,7 @@ Example of the naming and number of files associated with the modules types
 
 Note:
 
-#### Syntax
+#### Syntax for the .dsc file when mapping Libraries to modules
 
 - [LibraryClasses.common]
 -   <LibraryClassName>|<LibraryInstancePathToInf/Name.inf>
