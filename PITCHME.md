@@ -1685,9 +1685,13 @@ Note:
 @title[UEFI Driver Example - Disk I/O]
 <p align="right"><span class="gold" ><b>UEFI Driver Example - Disk I/O</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Disk/DiskIoDxe ">https://github.com/tianocore/edk2 /Disk/DiskIoDxe  </a>- entry point</span><br>
-<div class="left2">
-<span style="font-size:0.8em" ><font color="cyan">"C" file</font></span>
-<pre>
+
+@snap[north-west span-50 ]
+<br>
+<br>
+
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="cyan">"C" file</font></span></p>
+
 ```
 EFI_STATUS
 EFIAPI
@@ -1712,17 +1716,23 @@ InitializeDiskIo (
 @[3](Entry point for this UEFI Driver)
 @[8-11](Install -Supported, Start and Stop for the UEFI Driver binding protocol)
 @[3-17](The UEFI Driver Only does the <b>Install</b> then EXITs)
-</div>
-<div class="right2">
-<span style="font-size:0.8em" ><font color="yellow">INF file</font></span>
-<pre>
+
+@snapend
+
+
+@snap[north-east span-48 ]
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="yellow">INF file</font></span></p>
+
 ```
 [Defines]
  . . .
   ENTRY_POINT  = InitializeDiskIo
 ```
-</pre>
-</div>
+
+@snapend
+
 
 Note:
 
