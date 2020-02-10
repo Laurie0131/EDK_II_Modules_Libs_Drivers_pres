@@ -1573,8 +1573,8 @@ can be used in applications that parse the .DIST files.
 <p align="right"><span class="gold" ><b>INF File Usage Block examples</b></span></p>
 <br>
 
-<pre>
-```
+
+```xml
 
 [Guids]
   ## SOMETIMES_PRODUCES ## Variable:L"ConInDev"
@@ -1592,7 +1592,7 @@ can be used in applications that parse the .DIST files.
   gEdkiiStatusCodeDataTypeVariableGuid          ## SOMETIMES_CONSUMES ## GUID
 
 ```
-</pre>
+
 
 @[1-8](The Usage Block text comes before the <font face="Consolas">gEfiGlobalVariableGuid</font> GUID)
 @[9-14](The Usage Block text comes after the referenced GUIDs)
