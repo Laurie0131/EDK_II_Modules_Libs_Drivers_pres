@@ -507,6 +507,11 @@ DxePcdLib&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00b0f0](UefiRuntimeServices
 &nbsp; PeiPcdLib&nbsp;&nbsp;DxeHobLib &nbsp;&nbsp;@color[#87E2A9](UefiFileHandleLib)</span></p>
 @snapend
 
+@snap[south span-90]
+@box[bg-purple-pp text-white rounded my-box-pad fragment ](<p style="line-height:80%" ><span style="font-size:0.80em" ><b>MANY!!! Many Libraries in the EDK II code</b><br>&nbsp; </span></p>)
+<br>
+@snapend
+
 Note:
 Key point is that this soon becomes an Eye chart of many - MANY Many Libraries in the EDK II code
 
