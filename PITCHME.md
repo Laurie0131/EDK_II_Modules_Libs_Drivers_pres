@@ -508,8 +508,7 @@ DxePcdLib&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00b0f0](UefiRuntimeServices
 @snapend
 
 @snap[south span-90]
-@box[bg-purple-pp text-white rounded my-box-pad fragment ](<p style="line-height:80%" ><span style="font-size:0.80em" ><b>MANY!!! Many Libraries in the EDK II code</b><br>&nbsp; </span></p>)
-<br>
+@box[bg-purple-pp text-white rounded my-box-pad fragment ](<p style="line-height:80%" ><span style="font-size:0.90em" ><b>@color[yellow](MANY!!!) &nbsp;&nbsp;Many Libraries in the EDK II code</b><br>&nbsp; </span></p>)
 @snapend
 
 Note:
