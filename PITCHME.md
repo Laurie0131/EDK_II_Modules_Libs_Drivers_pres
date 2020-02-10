@@ -1689,7 +1689,7 @@ Note:
 @snap[north-west span-50 ]
 <br>
 <br>
-
+<br>
 <p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="cyan">"C" file</font></span></p>
 
 ```
@@ -1721,6 +1721,7 @@ InitializeDiskIo (
 
 
 @snap[north-east span-48 ]
+<br>
 <br>
 <br>
 <p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="yellow">INF file</font></span></p>
