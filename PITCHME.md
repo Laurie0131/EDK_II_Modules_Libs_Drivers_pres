@@ -12,7 +12,7 @@
 Note:
   PITCHME.md for UEFI / EDK II Training  EDK II Modules: Libs, Drivers & Apps Pres
 
-  Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
+  Copyright (c) 2020, Intel Corporation. All rights reserved.<BR>
 
   Redistribution and use in source (original document form) and 'compiled'
   forms (converted to PDF, epub, HTML and other formats) with or without
@@ -69,7 +69,7 @@ Note:
 <br>
 <br>
 <br>
-@css[text-yellow fragment](<b>@color[yellow](Compiles to)<br>@color[yellow](`.EFI` File)</b>)
+@css[text-yellow fragment](<b>@color[yellow](Compiles to)<br>@color[yellow](<font face="Consolas">.EFI File</fon>)</b>)
 
 
 @snap[east span-35]
@@ -115,9 +115,9 @@ So the first thing we have in trying to break EDK II down is Modules:
 <br>
 <br>
 <p align="left" style="line-height:80%"><span style="font-size:0.9em; font-weight: bold;" >
-@color[#00b0f0](`PEI_CORE`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](`UEFI_APPLICATION`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[orange](`DXE_CORE`)<br><br>
-@color[orange](`BASE`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00b0f0](`DXE_RUNTIME_DRIVER`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
-@color[#87E2A9](`PEIM`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](`UEFI_DRIVER`) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#87E2A9](`DXE_DRIVER`)<br>
+@color[#00b0f0](<font face="Consolas">PEI_CORE</font>) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](<font face="Consolas">UEFI_APPLICATION</font>) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[orange](<font face="Consolas">DXE_CORE</font>)<br><br>
+@color[orange](<font face="Consolas">BASE</font>) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#00b0f0](<font face="Consolas">DXE_RUNTIME_DRIVER</font>) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+@color[#87E2A9](<font face="Consolas">PEIM</font>) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[yellow](<font face="Consolas">UEFI_DRIVER</font>) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @color[#87E2A9](<font face="Consolas">DXE_DRIVER</font>)<br>
 </span></p>
 
 @snapend
@@ -182,20 +182,20 @@ First we will show the UEFI_APPLICATION type of module since it is the simplest 
 		<td bgcolor="#121212" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.8em" ><b>Example Source files </b></span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`UEFI_APPLICATION`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >@color[yellow](<b>`Foo.c, Foo.inf `</b>)</span></p></td>
+		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">UEFI_APPLICATION</font></b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >@color[yellow](<b><font face="Consolas">Foo.c, Foo.inf </font></b>)</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`UEFI_DRIVER`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:050%"><span style="font-size:0.65em" >@color[yellow](<b>`FooDriver.c, FooDriver.h, FooDriver.vfr,`<br>`FooDriver.uni, FooDriver.inf `</b>)</span></p></td>
+		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">UEFI_DRIVER</font></b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:050%"><span style="font-size:0.65em" >@color[yellow](<b><font face="Consolas">FooDriver.c, FooDriver.h, FooDriver.vfr,</font><br><font face="Consolas">FooDriver.uni, FooDriver.inf </font></b>)</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`DXE_DRIVER`</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >@color[yellow](<b>`FooDxe.c, FooDxe.h, FooDxe.inf`</b>)</span></p></td>
+		<td  bgcolor="#404040" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">DXE_DRIVER</font></b></span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.65em" >@color[yellow](<b><font face="Consolas">FooDxe.c, FooDxe.h, FooDxe.inf</font></b>)</span></p></td>
 	</tr>
 	<tr>
 		<td  bgcolor="#404040" height=".025"><p style="line-height:050%"><span style="font-size:0.65em" ><b>DXE, UEFI or PEIM Library</b></span></p></td>
-		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:050%"><span style="font-size:0.65em" >@color[yellow](<b>`FooLib.c, FooLib.h, FooLib.inf `</b>)&nbsp;&nbsp; ( w/ `LIBRARY_CLASS=` )</span></p></td>
+		<td  bgcolor="#404040" height=".025" width="70%"><p style="line-height:050%"><span style="font-size:0.65em" >@color[yellow](<b><font face="Consolas">FooLib.c, FooLib.h, FooLib.inf </font></b>)&nbsp;&nbsp; ( w/ <font face="Consolas">LIBRARY_CLASS=</font> )</span></p></td>
 	</tr>
 
 </table>
@@ -352,7 +352,7 @@ For example there may be three library instances for a given function and one li
 <br>
 <br>
 <br>
-@box[bg-navy text-white rounded fragment ](<span style="font-size:0.90em" ><b>NOT &nbsp; "`...LibNull`" &nbsp; instance</b></span>)
+@box[bg-navy text-white rounded fragment ](<span style="font-size:0.90em" ><b>NOT &nbsp; "<font face="Consolas">...LibNull</font>" &nbsp; instance</b></span>)
 @snapend
 
 @snap[south-east span-40]
@@ -380,10 +380,10 @@ Note:
 @snap[north-west span-100]
 <br>
 <br>
-@box[bg-royal text-white rounded  my-box-pad fragment](<p style="line-height:80%" align="left"><span style="font-size:01.0em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Library based upon</b><br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Industry specifications &lpar;UEFI, PCI, USB, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`MdePkg/MdeModulePkg`)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Intel’s framework<sup>1</sup> specs <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](`IntelFrameworkPkg/IntelFrameworkModulePkg`)<br>&nbsp;</p>)
-@box[bg-brick text-white rounded  my-box-pad fragment](<span style="font-size:0.90em" >Use the package help files &lpar;`.CHM`&rpar; to find a library or function<br> <i>Example:</i> `MdePkg.chm`</span>)
+@box[bg-royal text-white rounded  my-box-pad fragment](<p style="line-height:80%" align="left"><span style="font-size:01.0em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Library based upon</b><br></span><span style="font-size:0.70em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Industry specifications &lpar;UEFI, PCI, USB, etc.&rpar; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](<font face="Consolas">MdePkg/MdeModulePkg</font>)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Intel’s framework<sup>1</sup> specs <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](<font face="Consolas">IntelFrameworkPkg/IntelFrameworkModulePkg</font>)<br>&nbsp;</p>)
+@box[bg-brick text-white rounded  my-box-pad fragment](<span style="font-size:0.90em" >Use the package help files &lpar;<font face="Consolas">.CHM</font>&rpar; to find a library or function<br> <i>Example:</i> <font face="Consolas">MdePkg.chm</font></span>)
 <br>
-@box[bg-green text-white rounded  fragment](<span style="font-size:0.90em" > Search WorkSpace &lpar;`.INF`&rpar;  "`LIBRARY_CLASS`" </span>)
+@box[bg-green text-white rounded  fragment](<span style="font-size:0.90em" > Search WorkSpace &lpar;<font face="Consolas">.INF</font>&rpar;  "<font face="Consolas">LIBRARY_CLASS</font>" </span>)
 @snapend
 
 @snap[south-west span-50]
@@ -424,11 +424,11 @@ The simple answer is ”you have to know what the library class is based on.”
 <br>
 <br>
 <br>
-@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.80em" >`DebugLib`</span></p>)
-@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.70em" >`DebugLibSerialPort`<br> &lpar;Instance&rpar;</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.80em" ><font face="Consolas">DebugLib</font></span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.70em" ><font face="Consolas">DebugLibSerialPort</font><br> &lpar;Instance&rpar;</span></p>)
 @css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.80em" ><br>SerialPort &lpar;Class&rpar;</span></p>)
-@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:01.0em" ><br>`MdePkg` &lpar;Specs&rpar;</span></p>)
-@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.70em" ><br><br>@color[red](<b>Build error</b>):Instance of Library class &lbrack;`Foo`...`Lib`&rbrack; is not found... <br>Consumed by module &lbrack;<i>My Module.inf</i>&rbrack;</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:01.0em" ><br><font face="Consolas">MdePkg</font> &lpar;Specs&rpar;</span></p>)
+@css[text-white fragment](<p style="line-height:80%" align="center"><span style="font-size:0.70em" ><br><br>@color[red](<b>Build error</b>):Instance of Library class &lbrack;<font face="Consolas">Foo...Lib</font>&rbrack; is not found... <br>Consumed by module &lbrack;<i>My Module.inf</i>&rbrack;</span></p>)
 
 @snapend
 
@@ -883,6 +883,7 @@ Same as the UEFI application except will not return to the UEFI Loader and the O
 Note:
 
 
+
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Writing EDK II Applications Section]
 <br><br><br><br><br>
@@ -894,15 +895,15 @@ Note:
 @title[Application Files Placement]
 <p align="right"><span class="gold" ><b>Application Files Placement</b></span></p>
 
-@css[text-white fragment](@fa[certificate gp-bullet-ltgreen]<span style="font-size:0.8em" >&nbsp;&nbsp;Application source code can go anywhere in the EDK II <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;workspace </span> )
+@css[text-white fragment](@fa[certificate gp-bullet-ltgreen]<span style="font-size:0.8em" >&nbsp;&nbsp;Application source code can go anywhere in the EDK II <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;workspace including PACKAGES_PATH</span> )
 
 @css[text-white fragment](@fa[certificate gp-bullet-cyan]<span style="font-size:0.8em" >&nbsp;&nbsp;All code and include files go under a single directory containing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; an INF</span> )
 
-@css[text-white fragment](@fa[certificate gp-bullet-yellow]<span style="font-size:0.8em" >&nbsp;&nbsp;EDK  II Sample Applications can be found here:</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:0.7em; background-color: #080808">&nbsp;&nbsp;`  /MdeModulePkg/Application   `&nbsp;&nbsp;</span>)
+@css[text-white fragment](@fa[certificate gp-bullet-yellow]<span style="font-size:0.8em" >&nbsp;&nbsp;EDK  II Sample Applications can be found here:</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:0.7em; background-color: #080808">&nbsp;&nbsp;<font face="Consolas">  edk2/MdeModulePkg/Application   </font>&nbsp;&nbsp;</span>)
 
 @css[text-white fragment](@fa[certificate gp-bullet-gold]<span style="font-size:0.8em" >&nbsp;&nbsp;Typically, modules reside within a package:</span> )
 
-@box[bg-grey-05 text-white rounded  my-box-pad fragment](<p style="line-height:60%" align="left"><span style="font-size:0.7em; font-family: Consolas" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /MyWorkSpace      &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    /MyPkg          &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       /Application &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         /MyApp     &nbsp;&nbsp;<br>&nbsp;</span></p>)
+@box[bg-grey-05 text-white rounded  my-box-pad fragment](<p style="line-height:60%" align="left"><span style="font-size:0.7em; font-family: Consolas" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /MyWorkSpace      &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    /edk2/MyPkg          &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       /Application &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         /MyApp     &nbsp;&nbsp;<br>&nbsp;</span></p>)
 
 @snap[south-east span-55 fragment]
 ![MyAppdir](/assets/images/MyAppDir.png)
@@ -956,7 +957,7 @@ See EDK II INF  File Specification for more details and examples
 
 ---
 @title[Application INF Files -DEFINES]
-<p align="right"><span class="gold" ><b>Application INF Files `[DEFINES]`<b></span></p>
+<p align="right"><span class="gold" ><b>Application INF Files <font face="Consolas">[DEFINES]</font><b></span></p>
 
 
 
@@ -966,31 +967,31 @@ See EDK II INF  File Specification for more details and examples
 		<td align="center" bgcolor="#0070C0" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Description</b></span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`INF_VERSION`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">INF_VERSION</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >1.25* - Version of the INF spec. </span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`BASE_NAME`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">BASE_NAME</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >What’s the name of the application </span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`FILE_GUID`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">FILE_GUID</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Create a GUID for your module </span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_UNI_FILE`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">MODULE_UNI_FILE</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Meta-data - localization for Description, Abstract</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`VERSION_STRING`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">VERSION_STRING</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > Version number</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`ENTRY_POINT`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">ENTRY_POINT</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > Name of the entry function to call </span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_TYPE`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">MODULE_TYPE</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > UEFI_APPLICATION</span></p></td>
 	</tr>
 </table>
@@ -1086,7 +1087,7 @@ Note:
 @[1-8](Defines for this .INF file; BASE_NAME results in this name.efi file)
 @[4-4](OPTIONAL: UNI Text file for localization of descriptions and abstract  MyFile.uni)
 @[5-5](Always get a new quid .i.e http://guidgen.com)
-@[7-7](User defined string syntax is `number` dot `number`)
+@[7-7](User defined string syntax is <font face="Consolas">number</font> dot <font face="Consolas">number</font>)
 @[8-8](The main entry point of the module in one of the .c files in list of sources)
 @[10-11]( Source: .c, .h, .uni, .vfr, any files needed for the compiler/linker/lib etc)
 @[13-17](Package dependencies and Libraries this module will include in its final binary image)
@@ -1349,11 +1350,11 @@ simple "C" looks like a normal "C" file
 
 @css[text-white fragment](@fa[certificate gp-bullet-cyan]<span style="font-size:0.8em" >&nbsp;&nbsp;All code and include files go under a single directory containing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; an INF</span> )
 
-@css[text-white fragment](@fa[certificate gp-bullet-yellow]<span style="font-size:0.8em" >&nbsp;&nbsp;Good example of UEFI Drivers can be found here:</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:0.7em; background-color: #080808">&nbsp;&nbsp;`  /MdeModulePkg/Bus/ScsiDiskDxe   `&nbsp;&nbsp;</span>)
+@css[text-white fragment](@fa[certificate gp-bullet-yellow]<span style="font-size:0.8em" >&nbsp;&nbsp;Good example of UEFI Drivers can be found here:</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:0.7em; background-color: #080808">&nbsp;&nbsp;<font face="Consolas">  /MdeModulePkg/Bus/ScsiDiskDxe   </font>&nbsp;&nbsp;</span>)
 
 @css[text-white fragment](@fa[certificate gp-bullet-gold]<span style="font-size:0.8em" >&nbsp;&nbsp;Typically, Driver modules reside within a package:</span> )
 
-@box[bg-grey-05 text-white rounded  my-box-pad fragment](<p style="line-height:60%" align="left"><span style="font-size:0.7em; font-family: Consolas" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /MyWorkSpace      &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    /MyPkg          &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /Include &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /MyDriver     &nbsp;&nbsp;<br>&nbsp;</span></p>)
+@box[bg-grey-05 text-white rounded  my-box-pad fragment](<p style="line-height:60%" align="left"><span style="font-size:0.7em; font-family: Consolas" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  /MyWorkSpace      &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    /edk2/MyPkg          &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /Include &nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /MyDriver     &nbsp;&nbsp;<br>&nbsp;</span></p>)
 
 
 @snap[south-east span-55 fragment]
@@ -1366,7 +1367,7 @@ Same as slide
 
 
 ---
-<p align="right"><span class="gold" ><b>Driver INF Files: `[DEFINES]`</b></span></p>
+<p align="right"><span class="gold" ><b>Driver INF Files: <font face="Consolas">[DEFINES]</font></b></span></p>
 
 
 
@@ -1378,32 +1379,32 @@ Same as slide
 		<td align="center" bgcolor="#0070C0" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Description</b></span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`INF_VERSION`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">INF_VERSION</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >1.25* - Version of the INF spec. </span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`BASE_NAME`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">BASE_NAME</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >What’s the name of the driver </span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`FILE_GUID`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">FILE_GUID</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Create a GUID for your module </span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_UNI_FILE`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">MODULE_UNI_FILE</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" >Meta-data - localization for Description, Abstract</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`VERSION_STRING`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">VERSION_STRING</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > Version number</span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`ENTRY_POINT`</b></span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">ENTRY_POINT</font></b></span></p></td>
 		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > Name of the entry function to call </span></p></td>
 	</tr>
 	<tr>
-		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b>`MODULE_TYPE`</b></span></p></td>
-		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > `UEFI_DRIVER, DXE_DRIVER, PEIM,` etc...</span></p></td>
+		<td  bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.65em" ><b><font face="Consolas">MODULE_TYPE</font></b></span></p></td>
+		<td  bgcolor="#F2f2f2" height=".025" width="70%"><p style="line-height:010%"><span style="font-size:0.7em; color: black" > <font face="Consolas">UEFI_DRIVER, DXE_DRIVER, PEIM,</font> etc...</span></p></td>
 	</tr>
 </table>
 
@@ -1589,7 +1590,7 @@ can be used in applications that parse the .DIST files.
 ```
 </pre>
 
-@[1-8](The Usage Block text comes before the `gEfiGlobalVariableGuid' GUID)
+@[1-8](The Usage Block text comes before the <font face="Consolas">gEfiGlobalVariableGuid</font> GUID)
 @[9-14](The Usage Block text comes after the referenced GUIDs)
 
 <p align="right"><span style="font-size:0.7em" >Example: <a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe.inf">TerminalDxe.inf </a></span> </p>
@@ -1638,7 +1639,7 @@ Note:
 ```
 </pre>
 
-@[3-5](The Usage Block text comes before the `gEfiDevicePathProtocolGuid' protocol GUID)
+@[3-5](The Usage Block text comes before the <font face="Consolas">gEfiDevicePathProtocolGuid</font> protocol GUID)
 @[7-12](The Usage Block text comes after the referenced protocol GUIDs and PCDs)
 
 <p align="right"><span style="font-size:0.7em" >Example: <a href="https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe.inf">TerminalDxe.inf </a></span> </p>
@@ -1998,7 +1999,7 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWIS
 ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY 
 OF SUCH DAMAGE.
 
-Copyright (c) 2018, Intel Corporation. All rights reserved.
+Copyright (c) 2020, Intel Corporation. All rights reserved.
 **/
 
 ```
