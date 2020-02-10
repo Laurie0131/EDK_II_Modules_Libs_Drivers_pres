@@ -1909,6 +1909,12 @@ PlatformInfoInit (
 ```
 @snapend
 
+@snap[south-west span-100 ]
+<span style="font-size:0.6em"  >Notice the MODULE TYPE, C function Entry point and the [Depex] differences in the INF file </span>
+
+<br>
+<br>
+@snapend
 
 Note:
 
