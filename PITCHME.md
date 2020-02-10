@@ -1865,7 +1865,7 @@ Note:
 @title[DXE Example .INF File - PlatformInfoDxe]
 <p align="right"><span class="gold" ><b>DXE Driver Example - PlatformInfoDxe</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017/Vlv2TbltDevicePkg/PlatformInfoDxe">https://github.com/tianocore/edk2-platforms/ PlatformInfoDxe</a></span><br>
-<span style="font-size:0.6em"  >Notice the MODULE TYPE, C function Entry point and the [Depex] differences in the INF file </span>
+
 @snap[north-west span-50 ]
 <br>
 <br>
@@ -1874,7 +1874,7 @@ Note:
 
 ```
 #include “PlatformInfoDxe.h“
-• • •
+// • • •
 EFI_STATUS
 EFIAPI
 PlatformInfoInit (
@@ -1911,7 +1911,7 @@ PlatformInfoInit (
 
 @snap[south-west span-100 ]
 <span style="font-size:0.6em"  >Notice the MODULE TYPE, C function Entry point and the [Depex] differences in the INF file </span>
-
+<br>
 <br>
 <br>
 @snapend
