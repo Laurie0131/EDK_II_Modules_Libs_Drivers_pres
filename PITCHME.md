@@ -468,7 +468,7 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @snap[north-west span-100 fragment]
 <br>
 <br>
-<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; font-weight: bold;" >BaseLib &nbsp;&nbsp;DebugLib <br>
+<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Consolas; font-weight: bold;" >BaseLib &nbsp;&nbsp;DebugLib <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UefiLib<br>
 &nbsp;UefiApplicationEntryPoint</span></p>
 @snapend
@@ -477,7 +477,7 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @snap[north-east span-100 fragment]
 <br>
 <br>
-<p style="line-height:90%" align="right"><span style="font-size:0.80em; font-family: Courier New; color: #00b0f0; font-weight: bold;" >
+<p style="line-height:90%" align="right"><span style="font-size:0.80em; font-family: Consolas; color: #00b0f0; font-weight: bold;" >
 @color[yellow](UefiDriverEntryPoint)
 <br>UefiBootServicesTableLib&nbsp;&nbsp;
 <br> @color[yellow](DxeCoreEntryPoint)&nbsp;&nbsp; 
@@ -489,7 +489,7 @@ Another NOTE:  Most libraries are dependent on another library the same way that
 @snap[north-west span-100 fragment]
 <br>
 <br>
-<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; color: #FFC000; font-weight: bold;" ><br><br><br>
+<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Consolas; color: #FFC000; font-weight: bold;" ><br><br><br>
 CpuLib&nbsp;&nbsp;UefiUsbLib&nbsp;PciLib<br>
 @color[#87E2A9](MemoryAllocationLib)<br>
 &nbsp;@color[yellow](PeiCoreEntryPoint)<br>
@@ -500,7 +500,7 @@ CpuLib&nbsp;&nbsp;UefiUsbLib&nbsp;PciLib<br>
 @snap[north-west span-100 fragment]
 <br>
 <br>
-<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Courier New; color: #FFC000; font-weight: bold;" ><br><br><br><br><br><br><br>
+<p style="line-height:90%" align="left"><span style="font-size:0.80em; font-family: Consolas; color: #FFC000; font-weight: bold;" ><br><br><br><br><br><br><br>
 &nbsp;@color[#00b0f0](DxeSerivesLib)&nbsp;&nbsp;&nbsp;@color[yellow](SynchronizationLib)&nbsp;PciExpressLib<br>
 DxePcdLib&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[#00b0f0](UefiRuntimeServicesTableLib) <br>
 &nbsp; &nbsp;PciSegmentLibLib &nbsp;@color[yellow](PeiServicesLib)<br>
