@@ -1625,8 +1625,7 @@ Note:
 <p align="right"><span class="gold" ><b>INF File Usage Block examples</b></span></p>
 <br>
 
-<pre>
-```
+```xml
 
 [Protocols]
   gEfiSerialIoProtocolGuid                      ## TO_START
@@ -1641,7 +1640,7 @@ Note:
   gEfiMdePkgTokenSpaceGuid.PcdDefaultTerminalType           ## SOMETIMES_CONSUMES
   gEfiMdeModulePkgTokenSpaceGuid.PcdErrorCodeSetVariable    ## CONSUMES
 ```
-</pre>
+
 
 @[3-5](The Usage Block text comes before the <font face="Consolas">gEfiDevicePathProtocolGuid</font> protocol GUID)
 @[7-12](The Usage Block text comes after the referenced protocol GUIDs and PCDs)
