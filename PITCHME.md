@@ -1744,9 +1744,12 @@ Note:
 <p align="right"><span class="gold" ><b>UEFI Driver Example - Disk I/O</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Disk/DiskIoDxe ">https://github.com/tianocore/edk2 /Disk/DiskIoDxe  </a>- Supported </span><br>
 
-<div class="left2">
-<span style="font-size:0.8em" ><font color="cyan">"C" file</font></span>
-<pre>
+@snap[north-west span-50 ]
+<br>
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="cyan">"C" file</font></span></p>
+
 ```
 EFI_STATUS
 EFIAPI
@@ -1766,20 +1769,25 @@ DiskIoDriverBindingSupported (
 	);
 	
 ```
-</pre>
+
 @[3](Entry point for Supported)
 @[11]( Using the global gEfiBlockIoProtocolGuid protocol to determine if this device controller handle is a Block I/O device)
-</div>
-<div class="right2">
-<span style="font-size:0.8em" ><font color="yellow">INF file</font></span>
-<pre>
+
+@snapend
+
+@snap[north-east span-48 ]
+<br>
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="yellow">INF file</font></span></p>
+
 ```
 [Protocols]
   . . .
   gEfiBlockIoProtocolGuid  ## TO_START
 ```
-</pre>
-</div>
+
+@snapend
 
 Note:
 
@@ -1790,9 +1798,12 @@ Using the global gEfiBlockIoProtocolGuid protocol to determine if this device co
 <p align="right"><span class="gold" ><b>UEFI Driver Example - Disk I/O</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Universal/Disk/DiskIoDxe ">https://github.com/tianocore/edk2 /Disk/DiskIoDxe  </a>- Start</span><br>
 
-<div class="left2">
-<span style="font-size:0.8em" ><font color="cyan">"C" file</font></span>
-<pre>
+@snap[north-west span-50 ]
+<br>
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="cyan">"C" file</font></span></p>
+
 ```
 EFI_STATUS
 EFIAPI
@@ -1812,13 +1823,17 @@ EFIAPI
 	);
 	
 ```
-</pre>
+
 @[3](Entry point for Start function)
 @[13-14]( Using the global gEfiDiskIoProtocolGuid and gEfiDiskIo2ProtocolGuid protocols to INSTALL handles to)
-</div>
-<div class="right2">
-<span style="font-size:0.8em" ><font color="yellow">INF file</font></span>
-<pre>
+@snapend
+
+@snap[north-east span-48 ]
+<br>
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="yellow">INF file</font></span></p>
+
 ```
 [Protocols]
   . . .
@@ -1826,8 +1841,8 @@ EFIAPI
   gEfiDiskIo2ProtocolGuid  ## BY_START
 
 ```
-</pre>
-</div>
+
+@snapend
 
 Note:
 
@@ -1851,9 +1866,12 @@ Note:
 <p align="right"><span class="gold" ><b>DXE Driver Example - PlatformInfoDxe</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017/Vlv2TbltDevicePkg/PlatformInfoDxe">https://github.com/tianocore/edk2-platforms/ PlatformInfoDxe</a></span><br>
 <span style="font-size:0.6em"  >Notice the MODULE TYPE, C function Entry point and the [Depex] differences in the INF file </span>
-<div class="left1">
-<span style="font-size:0.8em" ><font color="cyan">"C" file</font></span>
-<pre>
+@snap[north-west span-50 ]
+<br>
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="cyan">"C" file</font></span></p>
+
 ```
 #include “PlatformInfoDxe.h“
 • • •
@@ -1869,12 +1887,14 @@ PlatformInfoInit (
   return Status;
 }
 ```
-</pre>
-</div>
+@snapend
 
-<div class="right1">
-<span style="font-size:0.8em" ><font color="yellow">INF file</font></span>
-<pre>
+@snap[north-east span-48 ]
+<br>
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="yellow">INF file</font></span></p>
+
 ```
 [Defines]
  . . .
@@ -1887,8 +1907,7 @@ PlatformInfoInit (
   gEfiVariableArchProtocolGuid AND 
     gEfiVariableWriteArchProtocolGuid
 ```
-</pre>
-</div>
+@snapend
 
 
 Note:
@@ -1913,9 +1932,12 @@ Note:
 @title[PEI Driver (PEIM) Example - CpuIoPei]
 <p align="right"><span class="gold" ><b>PEI Driver (PEIM) Example - CpuIoPei</b></span></p>
 @fa[github gp-bullet-gold]<span style="font-size:0.7em">&nbsp;&nbsp;<a href="https://github.com/tianocore/edk2/tree/master/UefiCpuPkg/CpuIoPei">https://github.com/tianocore/edk2/ UefiCpuPkg/CpuIoPei  </a> </span>
-<div class="left1">
-<span style="font-size:0.8em" ><font color="cyan">"C" file</font></span>
-<pre>
+@snap[north-west span-50 ]
+<br>
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="cyan">"C" file</font></span></p>
+
 ```
 #include “CpuIoPei.h“
  //• • •
@@ -1931,14 +1953,17 @@ CpuIoInitialize (
   return EFI_SUCCESS;
 }
 ```
-</pre>
+
 @[5](Entry point for this Dxe Driver)
 @[6-7]("FileHandle" - Instead of the ImageHandle & NO EFI_SYSTEM_TABLE - Not yet defined)
 
-</div>
-<div class="right1">
-<span style="font-size:0.8em" ><font color="yellow">INF file</font></span>
-<pre>
+@snapend
+
+@snap[north-east span-48 ]
+<br>
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.8em" ><font color="yellow">INF file</font></span></p>
 ```
 [Defines]
  . . .
@@ -1950,8 +1975,7 @@ CpuIoInitialize (
 [Depex]
    TRUE
 ```
-</pre>
-</div>
+@snapend
 
 Note:
 
